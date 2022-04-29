@@ -15950,6 +15950,7 @@
                             _0x64f9ce[_0x3311bd(0x574)] = 'ENTRANCE',
                             _0x64f9ce['WAREHOUSE'] = 'WAREHOUSE',
                             _0x64f9ce['LIBRARY'] = 'LIBRARY',
+                            _0x64f9ce['LIBRARY_E'] = 'LIBRARY_E',
                             _0x64f9ce[_0x3311bd(0x572)] = 'TEST',
                             _0x64f9ce[_0x3311bd(0x9dc)] = 'TESTONE',
                             _0x64f9ce['CASTLE'] = 'CASTLE',
@@ -16623,6 +16624,7 @@
                         _0x308500 = {
                             [_0xe12f59[_0x2f72b3(0x6e0)]]: [],
                             [_0xe12f59['LIBRARY']]: [],
+                            [_0xe12f59['LIBRARY_E']]: [],
                             [_0xe12f59[_0x2f72b3(0x4f1)]]: [],
                             [_0xe12f59['TOWER']]: [],
                             [_0xe12f59[_0x2f72b3(0x952)]]: [{
@@ -33552,7 +33554,1675 @@
                                 'enemies': [],
                                 'bosses': [_0x1a846d[_0x2f72b3(0x6dc)]]
                             }]
+                        },
+                        LIBRARY_ENDLESS = {
+                            [_0xe12f59['LIBRARY_E']]: [{
+                                'stageName': 'Endless Library',
+                                'description': 'This long library isn\'t so quiet anymore. No longer a place for meditation, but rather chaos. Death dare not step foot here. 2x Enemies.',
+                                'uiTexture': 'UI',
+                                'uiFrame': 'stage_library.png',
+                                'frameName': 'stage_library_icon.png',
+                                'frameNameUnlock': 'stage_library_unlock.png',
+                                'stageNumber': 'Endless',
+                                'unlocked': true,
+                                'hidden': false,
+                                'BGM': _0x5aaeff[_0x2f72b3(0x13f)],
+                                'legacyBGM': _0x5aaeff[_0x2f72b3(0x565)],
+                                'tips': 'No Death at 30 minutes.',
+                                'hyperTips': '75% Gold bonus\n20% Luck bonus',
+                                'mods': {
+                                    'TimeLimit': 86400,
+                                    'ClockSpeed': 0x1,
+                                    'PlayerPxSpeed': 1.25,
+                                    'EnemySpeed': 1.25,
+                                    'ProjectileSpeed': 0x1,
+                                    'GoldMultiplier': 0x1,
+                                    'EnemyMinimumMul': 2.0,
+                                    'EnemyHealth': 1.15,
+                                    'LuckBonus': 0x0,
+                                    'tips': ' '
+                                },
+                                'hyper': {
+                                    'unlocked': true,
+                                    'TimeLimit': 86400,
+                                    'ClockSpeed': 0x1,
+                                    'PlayerPxSpeed': 1.9,
+                                    'EnemySpeed': 1.9,
+                                    'ProjectileSpeed': 1.15,
+                                    'GoldMultiplier': 1.75,
+                                    'LuckBonus': 0.2,
+                                    'EnemyHealth': 1.15,
+                                    'tips': ' ',
+                                    'StartingSpawns': 0x3c,
+                                    'BGM_rate': 1.25,
+                                    'BGM_detune': 0x64,
+                                    'BGM_ignoreModsForNewSoundtrack': !0x1,
+                                    'BGM_new_rate': 1.0625
+                                },
+                                'tileset': {
+                                    'setKey': 'LibraryTexturePacked',
+                                    'setPath': 'assets/tilesets/LibraryTexturePacked.png',
+                                    'mapKey': 'Library',
+                                    'mapPath': 'assets/tilesets/Library.json',
+                                    'isTiling': !0x0
+                                },
+                                'spawnType': _0x446091[_0x2f72b3(0x95d)],
+                                'startingSpawns': 0x32,
+                                'minute': 0x0,
+                                'destructibleType': _0x33a0b6[_0x2f72b3(0x971)],
+                                'destructibleFreq': 0x3e8,
+                                'destructibleChance': 7.5,
+                                'dayNight': 1,
+                                'hasLights': true,
+                                'destructibleChanceMax': 0x32,
+                                'maxDestructibles': 0xa,
+                                'BGTextureName': 'bg_forest',
+                                'minimum': 0x32,
+                                'frequency': 0xbb8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xba2)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['SHADE_BOMB_RED'],
+                                    'delay': 0x64,
+                                    'moreX': 0x1
+                                }]
+                            }, {
+                                'minute': 0x1,
+                                'minimum': 0x50,
+                                'frequency': 0xbb8,
+                                'enemies': [_0x1a846d['MUD']]
+                            }, {
+                                'minute': 0x2,
+                                'minimum': 0x64,
+                                'frequency': 0xfa0,
+                                'enemies': [_0x1a846d['MUD'], _0x1a846d[_0x2f72b3(0xb0f)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x6e9)],
+                                    'moreX': 0x6,
+                                    'moreY': _0x1a846d['MEDUSA1']
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x882)],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d[_0x2f72b3(0x79f)],
+                                    'delay': 0x1388,
+                                    'chance': 0x46,
+                                    'repeat': 0x4
+                                }]
+                            }, {
+                                'minute': 0x3,
+                                'minimum': 0x3c,
+                                'frequency': 0xfa0,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x28d)]],
+                                'bosses': [_0x1a846d['XLMUMMY']],
+                                'treasure': {
+                                    'chances': [0.1, 0x5, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 0x4,
+                                'minimum': 0x6e,
+                                'frequency': 0xfa0,
+                                'enemies': [_0x1a846d['MUD'], _0x1a846d['MUMMY']]
+                            }, {
+                                'minute': 0x5,
+                                'minimum': 0x64,
+                                'frequency': 0xfa0,
+                                'enemies': [_0x1a846d['MUMMY']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x8ef)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['MEDUSA_WALL'],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d['MEDUSA1_FAST']
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x882)],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d[_0x2f72b3(0x79f)],
+                                    'delay': 0x1388,
+                                    'chance': 0x46,
+                                    'repeat': 0x5
+                                }],
+                                'treasure': {
+                                    'chances': [0x1, 0x5, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x6ed)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0x6,
+                                'minimum': 0x1e,
+                                'frequency': 0x7d0,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x566)], _0x1a846d[_0x2f72b3(0xb0f)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3ae)],
+                                    'delay': 0x2710,
+                                    'chance': 0x32,
+                                    'repeat': 0x4,
+                                    'moreX': 0x1
+                                }]
+                            }, {
+                                'minute': 0x7,
+                                'minimum': 0x50,
+                                'frequency': 0x7d0,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x566)], _0x1a846d['ECTO1'], _0x1a846d['ECTO2']],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3ae)],
+                                    'delay': 0x1388,
+                                    'chance': 0x50,
+                                    'repeat': 0x8,
+                                    'moreX': 0x1
+                                }]
+                            }, {
+                                'minute': 0x8,
+                                'minimum': 0x50,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xadc)], _0x1a846d['GHOST']],
+                                'bosses': [_0x1a846d['BOSS_ECTO']],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x32],
+                                    'level': 0x2,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x6ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0x9,
+                                'minimum': 0xc8,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d['MUMMY'], _0x1a846d[_0x2f72b3(0x2a6)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['SHADE_BOMB_RED'],
+                                    'delay': 0x4e20,
+                                    'chance': 0x32,
+                                    'repeat': 0x2,
+                                    'moreX': 0x2
+                                }]
+                            }, {
+                                'minute': 0xa,
+                                'minimum': 0x64,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xadc)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x7a1)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x6ed)], _0x3c6a0b[_0x2f72b3(0x6ed)]]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3ae)],
+                                    'moreX': 0x1
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3ae)],
+                                    'delay': 0x2710,
+                                    'chance': 0x50,
+                                    'repeat': 0x3,
+                                    'moreX': 0x2
+                                }]
+                            }, {
+                                'minute': 0xb,
+                                'minimum': 0x78,
+                                'frequency': 0x7d0,
+                                'enemies': [_0x1a846d['MEDUSA2'], _0x1a846d['BUER']],
+                                'bosses': [_0x1a846d['BOSS_MEDUSA1']],
+                                'treasure': {
+                                    'chances': [0x0, 0x0, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x6ed)], _0x3c6a0b[_0x2f72b3(0x6ed)]]
+                                },
+                                'arcanaHolder': _0x1a846d['BAT4'],
+                                'arcanaTreasure': {
+                                    'chances': [0x0, 0x0, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x365)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 0xc,
+                                'minimum': 0x50,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d['MEDUSA2'], _0x1a846d[_0x2f72b3(0x566)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['MEDUSA_SWARM'],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d[_0x2f72b3(0xa5c)]
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x6e9)],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d[_0x2f72b3(0x79f)],
+                                    'delay': 0x1388,
+                                    'chance': 0x46,
+                                    'repeat': 0x5
+                                }],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x1e1)]],
+                                'treasure': {
+                                    'chances': [0x1, 0x5, 0x32],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0xd,
+                                'minimum': 0x78,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d['MUMMY'], _0x1a846d['DULL1']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x6b4)]],
+                                'treasure': {
+                                    'chances': [0x1, 0x5, 0x32],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 0xe,
+                                'minimum': 0x12c,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x28d)], _0x1a846d[_0x2f72b3(0xa0e)], _0x1a846d[_0x2f72b3(0xadc)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x3ee)]],
+                                'treasure': {
+                                    'chances': [0x1, 0x5, 0x32],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0xf,
+                                'minimum': 0x64,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d['MEDUSA2_AGGRO']],
+                                'bosses': [_0x1a846d['BOSS_XLMEDUSA']],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x6e9)],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d[_0x2f72b3(0xa5c)]
+                                }, {
+                                    'eventType': _0x21eccf['MEDUSA_WALL'],
+                                    'moreX': 0x6,
+                                    'moreY': _0x1a846d[_0x2f72b3(0xa0e)],
+                                    'delay': 0x32c8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x882)],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d[_0x2f72b3(0xa5c)],
+                                    'delay': 0x7d0,
+                                    'chance': 0x5a,
+                                    'repeat': 0x19
+                                }]
+                            }, {
+                                'minute': 0x10,
+                                'minimum': 0x64,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d['WITCH1'], _0x1a846d[_0x2f72b3(0x566)], _0x1a846d['DULL2']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x1e1)]],
+                                'treasure': {
+                                    'chances': [0x1, 0x5, 0x32],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0x11,
+                                'minimum': 0xc8,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d['WITCH1'], _0x1a846d[_0x2f72b3(0xadc)], _0x1a846d[_0x2f72b3(0xb0f)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['SHADE_BOMB_RED'],
+                                    'delay': 0x1388,
+                                    'chance': 0x32,
+                                    'repeat': 0x4,
+                                    'moreX': 0x3
+                                }]
+                            }, {
+                                'minute': 0x12,
+                                'minimum': 0x3c,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x4a6)], _0x1a846d['BUER']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9fd)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0x13,
+                                'minimum': 0x78,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x4a6)], _0x1a846d['DULL2']]
+                            }, {
+                                'minute': 0x14,
+                                'minimum': 0x64,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d['BUER'], _0x1a846d['DULL2']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x69a)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3ae)],
+                                    'delay': 0x7d0,
+                                    'chance': 0x32,
+                                    'repeat': 0x19,
+                                    'moreX': 0x2
+                                }, {
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'moreX': 0x1
+                                }, {
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'delay': 0x1388,
+                                    'moreX': 0x2
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0x3a98,
+                                    'moreX': 0x4
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0x61a8,
+                                    'moreX': 0x8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0x88b8,
+                                    'moreX': 0x10
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0xafc8,
+                                    'moreX': 0x20
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0xd6d8,
+                                    'moreX': 0x20
+                                }],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 0x15,
+                                'minimum': 0x64,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d['BUER']],
+                                'arcanaHolder': _0x1a846d[_0x2f72b3(0x1e1)],
+                                'arcanaTreasure': {
+                                    'chances': [0x0, 0x0, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['ARCANA'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 0x16,
+                                'minimum': 0x50,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xaad)], _0x1a846d[_0x2f72b3(0x3f9)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3ae)],
+                                    'delay': 0x7d0,
+                                    'chance': 0x32,
+                                    'repeat': 0x19,
+                                    'moreX': 0x3
+                                }],
+                                'bosses': [_0x1a846d['BAT4']],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0x17,
+                                'minimum': 0x78,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d['DULL1'], _0x1a846d[_0x2f72b3(0xa11)], _0x1a846d['WITCH2']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x7a1)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 0x18,
+                                'minimum': 0x12c,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xaad)]]
+                            }, {
+                                'minute': 0x19,
+                                'minimum': 0x12c,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x3a9)], _0x1a846d[_0x2f72b3(0xaad)], _0x1a846d['XLBAT']],
+                                'bosses': [_0x1a846d['BOSS_COUNT1']],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0xb68)]
+                                }, {
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'moreX': 0x1
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0x1388,
+                                    'moreX': 0x2
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0x3a98,
+                                    'moreX': 0x4
+                                }, {
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'delay': 0x61a8,
+                                    'moreX': 0x8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0x88b8,
+                                    'moreX': 0x10
+                                }, {
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'delay': 0xafc8,
+                                    'moreX': 0x20
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'delay': 0xd6d8,
+                                    'moreX': 0x20
+                                }],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0x1a,
+                                'minimum': 0x64,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x6a0)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x204)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x32],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 0x1b,
+                                'minimum': 0x12c,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xa0e)], _0x1a846d[_0x2f72b3(0x6a0)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x204)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x32],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf['MEDUSA_SWARM'],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d[_0x2f72b3(0xb05)]
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x6e9)],
+                                    'moreX': 0xc,
+                                    'moreY': _0x1a846d['MEDUSA2_FAST'],
+                                    'delay': 0x7d0,
+                                    'chance': 0x5a,
+                                    'repeat': 0x19
+                                }]
+                            }, {
+                                'minute': 0x1c,
+                                'minimum': 0xfa,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x4a6)], _0x1a846d[_0x2f72b3(0x283)]],
+                                'bosses': [_0x1a846d['BOSS_XLMEDUSA']],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 0x1d,
+                                'minimum': 0xfa,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d['BOSS_MUD'], _0x1a846d['BOSS_ECTO'], _0x1a846d[_0x2f72b3(0x7a1)], _0x1a846d['BOSS_MEDUSA1']],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3ae)],
+                                    'delay': 0x3e8,
+                                    'chance': 0x3c,
+                                    'repeat': 0x32,
+                                    'moreX': 0x4
+                                }]
+                            }, {
+                                'minute': 0x1e,
+                                'minimum': 0x1,
+                                'frequency': 0x2710,
+                                'enemies': [_0x1a846d['BOSS_MUD'], _0x1a846d['BOSS_ECTO'], _0x1a846d[_0x2f72b3(0x7a1)], _0x1a846d['BOSS_MEDUSA1']]
+                            }, {
+                                'minute': 31,
+                                'minimum': 0x14,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d['SKULLINO'], _0x1a846d[_0x2f72b3(0x889)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'moreX': 0x2
+                                }]
+                            }, {
+                                'minute': 32,
+                                'minimum': 0x28,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x9f9)], _0x1a846d['SKELETON']],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'moreX': 0x4
+                                }]
+                            }, {
+                                'minute': 33,
+                                'minimum': 0x28,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x889)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0.1, 0x5, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'moreX': 0x8
+                                }]
+                            }, {
+                                'minute': 34,
+                                'minimum': 0x3c,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x889)], _0x1a846d[_0x2f72b3(0xa9e)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'moreX': 0x10
+                                }]
+                            }, {
+                                'minute': 35,
+                                'minimum': 0x28,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d['SKELETON'], _0x1a846d['PILE4']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'moreX': 0x20
+                                }],
+                                'treasure': {
+                                    'chances': [0x1, 0x5, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x6ed)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x2db)]]
+                                }
+                            }, {
+                                'minute': 36,
+                                'minimum': 0x50,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d['SKULLINO'], _0x1a846d[_0x2f72b3(0x2db)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'moreX': 0x20
+                                }]
+                            }, {
+                                'minute': 37,
+                                'minimum': 0x78,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x889)], _0x1a846d[_0x2f72b3(0x70e)], _0x1a846d[_0x2f72b3(0x576)], _0x1a846d[_0x2f72b3(0x737)], _0x1a846d[_0x2f72b3(0x2c3)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x395)],
+                                    'moreX': 0x20
+                                }]
+                            }, {
+                                'minute': 38,
+                                'minimum': 0x28,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x889)], _0x1a846d['SKELETON2'], _0x1a846d[_0x2f72b3(0x576)], _0x1a846d[_0x2f72b3(0x737)], _0x1a846d[_0x2f72b3(0x993)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x32],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EXISTING_WEAPON'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'moreX': 0x20
+                                }]
+                            }, {
+                                'minute': 39,
+                                'minimum': 0xc8,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d['SKELETON']],
+                                'events': [{
+                                    'eventType': _0x21eccf['SKULL_SWARM'],
+                                    'moreX': 0x20
+                                }]
+                            }, {
+                                'minute': 40,
+                                'minimum': 0x50,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x889)], _0x1a846d['SKELETON2'], _0x1a846d['SKELETON3'], _0x1a846d[_0x2f72b3(0x737)], _0x1a846d[_0x2f72b3(0x49b)]],
+                                'bosses': [_0x1a846d['BOSS_XLSKELETON']],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x6ed)], _0x3c6a0b[_0x2f72b3(0x6ed)]]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x75d)],
+                                    'duration': 0xea60
+                                }]
+                            }, {
+                                'minute': 41,
+                                'minimum': 0x64,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x889)], _0x1a846d[_0x2f72b3(0x149)]],
+                                'arcanaHolder': _0x1a846d['BOSS_SKULL2'],
+                                'arcanaTreasure': {
+                                    'chances': [0x0, 0x0, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x365)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 42,
+                                'minimum': 0x96,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x2db)], _0x1a846d[_0x2f72b3(0xf6)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x2710,
+                                    'chance': 0x64,
+                                    'moreZ': 0x2
+                                }]
+                            }, {
+                                'minute': 43,
+                                'minimum': 0x64,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d['SKULLNOAURA'], _0x1a846d['SKELEPANTHER']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x1, 0x5, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf['SKELESTREAM'],
+                                    'duration': 0x2710,
+                                    'chance': 0x64,
+                                    'moreZ': 0x4
+                                }]
+                            }, {
+                                'minute': 44,
+                                'minimum': 0x96,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d['SKULLNOAURA']],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x2710,
+                                    'chance': 0x64,
+                                    'moreZ': 0x8
+                                }]
+                            }, {
+                                'minute': 45,
+                                'minimum': 0x64,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x2db)], _0x1a846d[_0x2f72b3(0x9f9)]],
+                                'bosses': [_0x1a846d['SKELEGLOW']],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'moreZ': 0x4
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x13ec,
+                                    'moreZ': 0x8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x2af8,
+                                    'moreZ': 0xc
+                                }]
+                            }, {
+                                'minute': 46,
+                                'minimum': 0x96,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x2db)], _0x1a846d[_0x2f72b3(0x49b)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'moreZ': 0x4
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x13ec,
+                                    'moreZ': 0x8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x2af8,
+                                    'moreZ': 0xc
+                                }]
+                            }, {
+                                'minute': 47,
+                                'minimum': 0x64,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x2db)], _0x1a846d[_0x2f72b3(0x993)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'moreZ': 0x4
+                                }, {
+                                    'eventType': _0x21eccf['SKELESTREAM'],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x13ec,
+                                    'moreZ': 0x8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x2af8,
+                                    'moreZ': 0xc
+                                }]
+                            }, {
+                                'minute': 48,
+                                'minimum': 0x96,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d['SKULLNOAURA'], _0x1a846d[_0x2f72b3(0x1ce)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['SKELESTREAM'],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'moreZ': 0x4
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x13ec,
+                                    'moreZ': 0x8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x2af8,
+                                    'moreZ': 0xc
+                                }]
+                            }, {
+                                'minute': 49,
+                                'minimum': 0xc8,
+                                'frequency': 0x1f4,
+                                'enemies': [_0x1a846d['SKULLNOAURA']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'moreZ': 0x4
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x13ec,
+                                    'moreZ': 0x8
+                                }, {
+                                    'eventType': _0x21eccf[_0x2f72b3(0x7ae)],
+                                    'duration': 0x1388,
+                                    'chance': 0x64,
+                                    'delay': 0x2af8,
+                                    'moreZ': 0xc
+                                }]
+                            }, {
+                                'minute': 50,
+                                'minimum': 0x96,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x2db)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x61e)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                },
+                                'events': [{
+                                    'eventType': _0x21eccf['DROWNER'],
+                                    'duration': 0xea60
+                                }]
+                            }, {
+                                'minute': 51,
+                                'minimum': 0x96,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x889)], _0x1a846d[_0x2f72b3(0x49b)]],
+                                'arcanaHolder': _0x1a846d['BOSS_SKULL2'],
+                                'arcanaTreasure': {
+                                    'chances': [0x0, 0x0, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x365)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 52,
+                                'minimum': 0xc8,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xa9e)], _0x1a846d[_0x2f72b3(0x9f9)]],
+                                'events': [{
+                                    'eventType': _0x21eccf['SKULLPILEPILE'],
+                                    'moreX': 0x1
+                                }]
+                            }, {
+                                'minute': 53,
+                                'minimum': 0x96,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x3c8)], _0x1a846d['SKELANGUE']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 54,
+                                'minimum': 0xc8,
+                                'frequency': 0x64,
+                                'enemies': [_0x1a846d[_0x2f72b3(0xa9e)], _0x1a846d[_0x2f72b3(0x1ce)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3da)],
+                                    'moreX': 0x2
+                                }]
+                            }, {
+                                'minute': 55,
+                                'minimum': 0x96,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d['SKELEWING_ZONE'], _0x1a846d['SKELENIN_ZONE']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b[_0x2f72b3(0x8ed)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 56,
+                                'minimum': 0x64,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x12f)]],
+                                'events': [{
+                                    'eventType': _0x21eccf[_0x2f72b3(0x3da)],
+                                    'moreX': 0x3
+                                }]
+                            }, {
+                                'minute': 57,
+                                'minimum': 0x96,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x12f)], _0x1a846d['SKULLINO']],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b['EXISTING_ANY']]
+                                }
+                            }, {
+                                'minute': 58,
+                                'minimum': 0xc8,
+                                'frequency': 0x3e8,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x12f)]],
+                                'bosses': [_0x1a846d[_0x2f72b3(0x9d8)]],
+                                'treasure': {
+                                    'chances': [0x3, 0xa, 0x64],
+                                    'level': 0x1,
+                                    'prizeTypes': [_0x3c6a0b['EVOLUTION'], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b[_0x2f72b3(0x291)], _0x3c6a0b['EXISTING_ANY'], _0x3c6a0b[_0x2f72b3(0x291)]]
+                                }
+                            }, {
+                                'minute': 59,
+                                'minimum': 0x96,
+                                'frequency': 0x32,
+                                'enemies': [_0x1a846d[_0x2f72b3(0x9ab)]]
+                            }, {
+                                'minute': 60,
+                                'minimum': 12,
+                                'frequency': 100,
+                                'enemies': [
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': [{
+                                    'eventType': _0x21eccf['SKULLPILEPILE'],
+                                    'duration': 10000,
+                                    'chance': 100,
+                                    'moreZ': 8,
+                                    'moreX': 2
+                                }]
+                            }, {
+                                'minute': 70,
+                                'minimum': 20,
+                                'frequency': 100,
+                                'enemies': [
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['DEVIL3'],
+                                    _0x1a846d['WEREWOLF'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d[_0x2f72b3(0x725)], //Devil1
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x3c9)], //XLDragon1
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['MEDUSA2_AGGRO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['BOSS_COUNT1'],
+                                    _0x1a846d['BOSS_COUNT2'],
+                                    _0x1a846d[_0x2f72b3(0xb43)], //Armor 2
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': []
+                            }, {
+                                'minute': 80,
+                                'minimum': 35,
+                                'frequency': 90,
+                                'enemies': [
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['DEVIL3'],
+                                    _0x1a846d['WEREWOLF'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d[_0x2f72b3(0x725)], //Devil1
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x3c9)], //XLDragon1
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['MEDUSA2_AGGRO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['BOSS_COUNT1'],
+                                    _0x1a846d['BOSS_COUNT2'],
+                                    _0x1a846d[_0x2f72b3(0xb43)], //Armor 2
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': []
+                            }, {
+                                'minute': 90,
+                                'minimum': 45,
+                                'frequency': 80,
+                                'enemies': [
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['DEVIL3'],
+                                    _0x1a846d['WEREWOLF'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d[_0x2f72b3(0x725)], //Devil1
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x3c9)], //XLDragon1
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['MEDUSA2_AGGRO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['BOSS_COUNT1'],
+                                    _0x1a846d['BOSS_COUNT2'],
+                                    _0x1a846d[_0x2f72b3(0xb43)], //Armor 2
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': []
+                            }, {
+                                'minute': 100,
+                                'minimum': 50,
+                                'frequency': 70,
+                                'enemies': [
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['DEVIL3'],
+                                    _0x1a846d['WEREWOLF'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d[_0x2f72b3(0x725)], //Devil1
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x3c9)], //XLDragon1
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['MEDUSA2_AGGRO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['BOSS_COUNT1'],
+                                    _0x1a846d['BOSS_COUNT2'],
+                                    _0x1a846d[_0x2f72b3(0xb43)], //Armor 2
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': []
+                            }, {
+                                'minute': 110,
+                                'minimum': 55,
+                                'frequency': 60,
+                                'enemies': [
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['DEVIL3'],
+                                    _0x1a846d['WEREWOLF'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d[_0x2f72b3(0x725)], //Devil1
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x3c9)], //XLDragon1
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['MEDUSA2_AGGRO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['BOSS_COUNT1'],
+                                    _0x1a846d['BOSS_COUNT2'],
+                                    _0x1a846d[_0x2f72b3(0xb43)], //Armor 2
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': []
+                            }, {
+                                'minute': 120,
+                                'minimum': 60,
+                                'frequency': 50,
+                                'enemies': [
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['DEVIL3'],
+                                    _0x1a846d['WEREWOLF'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d[_0x2f72b3(0x725)], //Devil1
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x3c9)], //XLDragon1
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['MEDUSA2_AGGRO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['BOSS_COUNT1'],
+                                    _0x1a846d['BOSS_COUNT2'],
+                                    _0x1a846d[_0x2f72b3(0xb43)], //Armor 2
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': []
+                            }, {
+                                'minute': 130,
+                                'minimum': 70,
+                                'frequency': 40,
+                                'enemies': [
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT'],
+                                    _0x1a846d['XLMUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x945)], //XLMantis
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBat
+                                    _0x1a846d['XLMEDUSA'],
+                                    _0x1a846d['XLARMOR2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['XLMAGIO'],
+                                    _0x1a846d['BOSS_WEREWOLF'],
+                                    _0x1a846d['BOSS_XLMANTIS'],
+                                    _0x1a846d[_0x2f72b3(0x1cf)], //XLBAT_0
+                                    _0x1a846d[_0x2f72b3(0x139)], //Harpy
+                                    _0x1a846d['SKULL2_SWARM'],
+                                    _0x1a846d['SKULL2_SCALING'],
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['DEVIL3'],
+                                    _0x1a846d['WEREWOLF'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d[_0x2f72b3(0x725)], //Devil1
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x3c9)], //XLDragon1
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['XLARMOR1'],
+                                    _0x1a846d['MEDUSA2_AGGRO'],
+                                    _0x1a846d['XLDRAGON2'],
+                                    _0x1a846d['BOSS_COUNT1'],
+                                    _0x1a846d['BOSS_COUNT2'],
+                                    _0x1a846d[_0x2f72b3(0xb43)], //Armor 2
+                                    _0x1a846d['BOSS_ECTO'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d['POLTER'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['ECTO1'],
+                                    _0x1a846d['ECTO2'],
+                                    _0x1a846d['MUMMY'],
+                                    _0x1a846d[_0x2f72b3(0x2a6)], //GHOST
+                                    _0x1a846d['MEDUSA2'],
+                                    _0x1a846d['BUER'],
+                                    _0x1a846d['WITCH1'],
+                                    _0x1a846d[_0x2f72b3(0x566)], //DULL_1
+                                    _0x1a846d['DULL2'],
+                                    _0x1a846d['DULL1'],
+                                    _0x1a846d['XLBAT']
+                                ],
+                                'bosses': [],
+                                'events': []
+                            }, ]
                         };
+
+
+
                     var _0x4eb305 = function(_0x272892, _0x558cba, _0x48cd0f, _0x421f4a) {
                         return new(_0x48cd0f || (_0x48cd0f = Promise))(function(_0x5b0eb0, _0x3c02d7) {
                             const _0x5b0707 = a0_0x38be;
@@ -33749,7 +35419,8 @@
                                     _0x308500[_0xe12f59['FOREST']] = _0x468951[_0xf0ebb8(0x6e0)],
                                     _0x308500[_0xe12f59[_0xf0ebb8(0x30e)]] = _0x21f83b[_0xf0ebb8(0x30e)],
                                     _0x308500[_0xe12f59['WAREHOUSE']] = _0x3331ab['WAREHOUSE'],
-                                    _0x308500[_0xe12f59['TOWER']] = _0x430a8b[_0xf0ebb8(0x7d9)];
+                                    _0x308500[_0xe12f59['TOWER']] = _0x430a8b[_0xf0ebb8(0x7d9)],
+                                    _0x308500[_0xe12f59['LIBRARY_E']] = LIBRARY_ENDLESS['LIBRARY_E'];
                             }
                             [_0x2f72b3(0x2c9)]() {
                                 const _0x214984 = _0x2f72b3;
