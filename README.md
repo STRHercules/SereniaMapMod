@@ -1,1 +1,1 @@
-# This repo will eventually house my new custom map.
+# This is an attempt at making a map "endless".
