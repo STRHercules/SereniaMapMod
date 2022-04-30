@@ -159,6 +159,7 @@
                                 _0x4d5b02['PEPPE'] = 'PEPPE',
                                 _0x4d5b02[_0x9886f7(0x451)] = 'PEPPINO',
                                 _0x4d5b02['SMITH'] = 'SMITH',
+                                /*      //<-- TO ENABLE MY CHARACTERS, REMOVE THIS ENTIRE LINE --->
                                 _0x4d5b02['CHESTER'] = 'CHESTER',
                                 _0x4d5b02['CLYDE'] = 'CLYDE',
                                 _0x4d5b02['CULTIST'] = 'CULTIST',
@@ -216,6 +217,7 @@
                                 _0x4d5b02['TOAD'] = 'TOAD',
                                 _0x4d5b02['SNAKE'] = 'SNAKE',
                                 _0x4d5b02['FROSTY'] = 'FROSTY',
+                                */ //<-- TO ENABLE MY CHARACTERS, REMOVE THIS ENTIRE LINE --->
                                 _0x4d5b02['NEO'] = 'NEO',
                                 _0x4d5b02[_0x9886f7(0x81e)] = 'PIRIPIRI',
                                 _0x4d5b02[_0x9886f7(0xb6f)] = 'PINEYE',
@@ -231,6 +233,7 @@
                             _0x586e5a['MAGIC_MISSILE'] = 'MAGIC_MISSILE',
                             _0x586e5a['HOLY_MISSILE'] = 'HOLY_MISSILE',
                             _0x586e5a[_0x2be522(0x661)] = 'WHIP',
+                            /*          //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE --->
                             _0x586e5a['KI'] = 'KI',
                             _0x586e5a['LONGSWORD'] = 'LONGSWORD',
                             _0x586e5a['SPEAR'] = 'SPEAR',
@@ -240,10 +243,12 @@
                             _0x586e5a['ROCKET4'] = 'ROCKET4',
                             _0x586e5a['PULSE1'] = 'PULSE1',
                             _0x586e5a['PULSE2'] = 'PULSE2',
-                            _0x586e5a[_0x2be522(0x547)] = 'VAMPIRICA',
-                            _0x586e5a['AXE'] = 'AXE',
                             _0x586e5a['STAR'] = 'STAR',
                             _0x586e5a['SKULL'] = 'SKULL',
+                            _0x586e5a['G_SHIELD'] = 'G_SHIELD',
+                            */ //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE --->
+                            _0x586e5a[_0x2be522(0x547)] = 'VAMPIRICA',
+                            _0x586e5a['AXE'] = 'AXE',
                             _0x586e5a[_0x2be522(0x59a)] = 'SCYTHE',
                             _0x586e5a['KNIFE'] = 'KNIFE',
                             _0x586e5a[_0x2be522(0x858)] = 'THOUSAND',
@@ -296,7 +301,6 @@
                             _0x586e5a[_0x2be522(0x3a4)] = 'AMOUNT',
                             _0x586e5a['MAXHEALTH'] = 'MAXHEALTH',
                             _0x586e5a['ARMOR'] = 'ARMOR',
-                            _0x586e5a['G_SHIELD'] = 'G_SHIELD',
                             _0x586e5a[_0x2be522(0xb38)] = 'MOVESPEED',
                             _0x586e5a[_0x2be522(0x4bd)] = 'MAGNET',
                             _0x586e5a['GROWTH'] = 'GROWTH',
@@ -2466,7 +2470,7 @@
                                 'banish': 0x0,
                                 'showcase': []
                             }],
-
+                            /*              //<-- TO ENABLE MY CHARACTERS, REMOVE THIS ENTIRE LINE --->
                             [_0x39678f['CHESTER']]: [{
                                 'hidden': !0x1,
                                 'level': 0x1,
@@ -2783,13 +2787,6 @@
                                 'level': 0x29,
                                 'growth': -0x1
                             }],
-
-
-
-
-
-
-
                             [_0x39678f['GOKU']]: [{
                                 'level': 0x1,
                                 'startingWeapon': _0x202927['KI'],
@@ -5407,6 +5404,7 @@
                                 'level': 0x29,
                                 'growth': -0x1
                             }],
+                            */ //<-- TO ENABLE MY CHARACTERS, REMOVE THIS ENTIRE LINE --->
                             [_0x39678f['NEO']]: [{
                                 'hidden': !0x0,
                                 'level': 0x1,
@@ -11926,487 +11924,489 @@
                             'curse': 0.1
                         }],
                         [_0x202927['REVIVAL']]: [{
-                            'level': 0x1,
-                            'hidden': !0x1,
-                            'bulletType': _0x202927[_0x2f72b3(0x756)],
-                            'name': 'Tiragisú',
-                            'description': 'Revives once with 50% health.',
-                            'texture': 'items',
-                            'frameName': 'Tiramisu.png',
-                            'evoSynergy': [_0x202927[_0x2f72b3(0x1eb)], _0x202927[_0x2f72b3(0x54c)]],
-                            'evoInto': _0x202927['GUNS3'],
-                            'isUnlocked': !0x1,
-                            'rarity': 0x28,
-                            'isPowerUp': !0x0,
-                            'revivals': 0x1
-                        }, {
-                            'revivals': 0x1
-                        }],
-                        [_0x202927['LONGSWORD']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['LONGSWORD'],
-                            'name': 'Longsword',
-                            'description': 'Attacks horizontally, passes through enemies. Smaller and Faster than Whip.',
-                            'tips': 'Ignores: speed, duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'sword_03c.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0xf,
-                            'rarity': 15,
-                            'interval': 750, //1350
-                            'repeatInterval': 0x64, //100
-                            'power': 1.7, //0x1
-                            'area': 0.7, //0x1
-                            'speed': 0.7, //0x1
-                            'amount': 0x1, //0x1
-                            'hitsWalls': !0x1, //!0x1
-                            'critChance': 0.6, //0.2
-                            'critMul': 2.2 //0x2
-                        }, {
-                            'power': 0.3,
-                            'penetrating': 0x1
-                        }, {
-                            'power': 0.3
-                        }, {
-                            'power': 0.3,
-                            'interval': -50
-                        }, {
-                            'power': 0.4,
-                            'interval': -50
-                        }, {
-                            'power': 0.4,
-                            'interval': -100
-                        }, {
-                            'power': 0.5,
-                            'interval': -100
-                        }, {
-                            'power': 0.5,
-                            'interval': -150
-                        }],
-                        [_0x202927['KI']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['KI'],
-                            'name': 'Ki Blast',
-                            'description': 'Saiyan Energy Blast. Fired at closest enemy.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'KI',
-                            'frameName': 'smallki.png',
-                            'isUnlocked': 0x0,
-                            'poolLimit': 0x3c,
-                            'rarity': 0, //100
-                            'interval': 0x4b0,
-                            'repeatInterval': 0x64,
-                            'power': 0x1,
-                            'area': 0x1,
-                            'speed': 1.2,
-                            'amount': 0x1,
-                            'penetrating': 0x1
-                        }, {
-                            'amount': 0x1
-                        }, {
-                            'interval': -0xc8,
-                            'power': 0x1
-                        }, {
-                            'amount': 0x2
-                        }, {
-                            'power': 0x1
-                        }, {
-                            'amount': 0x2,
-                            'speed': 0x2
-                        }, {
-                            'penetrating': 0x2,
-                            'power': 0x1,
-                        }, {
-                            'interval': -0x1f4,
-                        }],
-                        [_0x202927['SKULL']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['SKULL'],
-                            'name': 'Necronomicon',
-                            'description': 'Starts with 2 Projectiles. Penetrates 2 Enemies. Slight Knockback.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'book_06f.png', //skull.png
-                            'isUnlocked': 0x0,
-                            'poolLimit': 0x3c,
-                            'rarity': 15,
-                            'interval': 0x898, //0x4b0
-                            'repeatInterval': 0x64,
-                            'power': 0.50,
-                            'area': 0x1,
-                            'speed': 0x1,
-                            'amount': 0x2, //0x1
-                            'penetrating': 0x2 //0x1
-                        }, {
-                            'amount': 0x1
-                        }, {
-                            'interval': -0xc8,
-                            'power': 0x1
-                        }, {
-                            'amount': 0x2
-                        }, {
-                            'power': 0x1
-                        }, {
-                            'amount': 0x2,
-                            'speed': 0x2
-                        }, {
-                            'penetrating': 0x2,
-                            'power': 0x1,
-                        }, {
-                            'amount': 0x1,
-                            'interval': -0x1f4,
-                        }],
-                        [_0x202927['SPEAR']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['SPEAR'],
-                            'name': 'Spear',
-                            'description': 'Fires slowly in the faced direction. Massive pentration.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'spear_01.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0x46,
-                            'rarity': 15,
-                            'interval': 2750, //1000
-                            'repeatInterval': 0x64, //100
-                            'power': 0.75, //0.65
-                            'area': 0x1,
-                            'speed': 1.15, //0x1
-                            'amount': 0x1,
-                            'penetrating': 0x2, //0x1
-                            'knockback': 0.5, //0.5
-                            'critChance': 0.3, //0.3 
-                            'critMul': 0x5 //0x3
-                        }, {
-                            'knockback': 0.5,
-                            'penetrating': 0x2
-                        }, {
-                            'penetrating': 0x2,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x2,
-                            'repeatInterval': -0x14
-                        }, {
-                            'penetrating': 0x2
-                        }, {
-                            'penetrating': 0x2,
-                            'repeatInterval': -0x14
-                        }, {
-                            'penetrating': 0x2,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x1,
-                            'repeatInterval': -0x14
-                        }],
-                        [_0x202927['ROCKET1']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['ROCKET1'],
-                            'name': 'Rocket Mk.1',
-                            'description': 'Fired at the nearest enemy. Scaling Crit and Power.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'b_missile_f.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0x46,
-                            'rarity': 0,
-                            'interval': 2750,
-                            'repeatInterval': 0x64,
-                            'power': 0.50,
-                            'area': 0x1,
-                            'speed': 1.0,
-                            'amount': 0x1,
-                            'penetrating': 0x0,
-                            'knockback': 0.5,
-                            'critChance': 0.3,
-                            'critMul': 0x5
-                        }, {
-                            'critChance': 0.2
-                        }, {
-                            'critChance': 0.2,
-                            'power': 0.5
-                        }, {
-                            'critChance': 0.2,
-                            'repeatInterval': -0x14
-                        }, {
-                            'power': 0.5
-                        }, {
-                            'critChance': 0.2,
-                            'repeatInterval': -0x14
-                        }, {
-                            'critChance': 0.2,
-                            'power': 0.5
-                        }, {
-                            'repeatInterval': -0x14
-                        }],
-                        [_0x202927['ROCKET2']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['ROCKET2'],
-                            'name': 'Rocket Mk.2',
-                            'description': 'Fired at the nearest enemy. Scaling Speed and Power. Slight Knockback.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'a_missile_f.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0x46,
-                            'rarity': 0,
-                            'interval': 3150,
-                            'repeatInterval': 0x64,
-                            'power': 0.50,
-                            'area': 0x1,
-                            'speed': 1.15,
-                            'amount': 0x1,
-                            'penetrating': 0x0,
-                            'knockback': 0.5,
-                            'critChance': 0.3,
-                            'critMul': 0x5
-                        }, {
-                            'knockback': 0.5,
-                            'power': 0.5
-                        }, {
-                            'speed': 0.05,
-                            'power': 0.5
-                        }, {
-                            'power': 0.5,
-                            'repeatInterval': -0x14
-                        }, {
-                            'speed': 0.05
-                        }, {
-                            'speed': 0.05,
-                            'repeatInterval': -0x14
-                        }, {
-                            'speed': 0.05,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x1,
-                            'repeatInterval': -0x14
-                        }],
-                        [_0x202927['ROCKET3']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['ROCKET3'],
-                            'name': 'Rocket Mk.3',
-                            'description': 'Fired at the nearest enemy. Penetrates. ',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'super_missile_f.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0x46,
-                            'rarity': 0,
-                            'interval': 3450,
-                            'repeatInterval': 0x64,
-                            'power': 1.0,
-                            'area': 0x1,
-                            'speed': 1.0,
-                            'amount': 0x2,
-                            'penetrating': 0x1,
-                            'knockback': 0.0,
-                            'critChance': 0.3,
-                            'critMul': 0x5
-                        }, {
-                            'knockback': 0.5,
-                            'critChance': 0.1
-                        }, {
-                            'penetrating': 0x1,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x2,
-                            'interval': -500
-                        }, {
-                            'speed': 0.05
-                        }, {
-                            'penetrating': 0x1,
-                            'repeatInterval': -0x14
-                        }, {
-                            'amount': 0x1,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x1,
-                            'repeatInterval': -0x14
-                        }],
-                        [_0x202927['ROCKET4']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['ROCKET4'],
-                            'name': 'Rocket Mk.4',
-                            'description': 'Fired at the nearest enemy. Multiple weak projectiles.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'sonic_missile_f.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0x46,
-                            'rarity': 0,
-                            'interval': 3850, //1000
-                            'repeatInterval': 0x64, //100
-                            'power': 0.20, //0.65
-                            'area': 0x1,
-                            'speed': 1.15, //0x1
-                            'amount': 0x6,
-                            'penetrating': 0x0, //0x1
-                            'knockback': 0.5, //0.5
-                            'critChance': 0.3, //0.3 
-                            'critMul': 0x5 //0x3
-                        }, {
-                            'power': 0.5
-                        }, {
-                            'power': 0.5
-                        }, {
-                            'repeatInterval': -0x14
-                        }, {
-                            'power': 0.5
-                        }, {
-                            'speed': 0.10,
-                            'repeatInterval': -0x14
-                        }, {
-                            'power': 0.5
-                        }, {
-                            'amount': 0x2,
-                            'repeatInterval': -0x14
-                        }],
-                        [_0x202927['PULSE1']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['PULSE1'],
-                            'name': 'Repulsor',
-                            'description': 'Fires slow, high damage.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'greenfx_01.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0x46,
-                            'rarity': 0,
-                            'interval': 3650, //1000
-                            'repeatInterval': 0x64, //100
-                            'power': 1.15, //0.65
-                            'area': 0x1,
-                            'speed': 1.15, //0x1
-                            'amount': 0x1,
-                            'penetrating': 0x0, //0x1
-                            'knockback': 0x0, //0.5
-                            'critChance': 0.3, //0.3 
-                            'critMul': 0x5 //0x3
-                        }, {
-                            'penetrating': 0x1
-                        }, {
-                            'knockback': 0.5,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x1,
-                            'repeatInterval': -0x14
-                        }, {
-                            'penetrating': 0x1,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x1,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x1,
-                            'power': 0.5
-                        }, {
-                            'penetrating': 0x2
-                        }],
-                        [_0x202927['PULSE2']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['PULSE2'],
-                            'name': 'Pulsar',
-                            'description': 'Fires extremely fast, very low damage.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'redhit2_01.png',
-                            'isUnlocked': !0x0,
-                            'poolLimit': 0x46,
-                            'rarity': 0,
-                            'interval': 600, //1000
-                            'repeatInterval': 0x64, //100
-                            'power': 0.25, //0.65
-                            'area': 0x1,
-                            'speed': 1.65, //0x1
-                            'amount': 0x1,
-                            'penetrating': 0x0, //0x1
-                            'knockback': 1.25, //0.5
-                            'critChance': 0.3, //0.3 
-                            'critMul': 0x5 //0x3
-                        }, {
-                            'speed': 0.05
-                        }, {
-                            'penetrating': 0x1,
-                            'speed': 0.05
-                        }, {
-                            'penetrating': 0x1
-                        }, {
-                            'speed': 0.05
-                        }, {
-                            'repeatInterval': -0x14
-                        }, {
-                            'penetrating': 0x1,
-                            'speed': 0.05
-                        }, {
-                            'penetrating': 0x1,
-                            'repeatInterval': -0x14
-                        }],
-                        [_0x202927['STAR']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['STAR'],
-                            'name': 'Shuriken',
-                            'description': 'Thrown slowly, penetrates nearest enemies.',
-                            'tips': 'Ignores: duration.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'shuriken_red.png',
-                            'knockback': 0.5,
-                            'isUnlocked': !0x1,
-                            'poolLimit': 0x46,
-                            'rarity': 15,
-                            'interval': 6000, //0xfa0
-                            'repeatInterval': 250, //0xc8
-                            'power': 1.7, //0x2
-                            'area': 0x1,
-                            'speed': 1.3, //0x1
-                            'amount': 0x1,
-                            'penetrating': 0x5, //0x3
-                            'duration': 0x7d0,
-                            'hitsWalls': !0x0, //!0x1
-                            'critChance': 0.4, //0.3
-                            'critMul': 2.2 //0x2
-                        }, {
-                            'amount': 0x1
-                        }, {
-                            'interval': -1500,
-                            'power': 0x2
-                        }, {
-                            'interval': -1500,
-                            'repeatInterval': -50,
-                            'penetrating': 0x2
-                        }, {
-                            'interval': -1200,
-                            'repeatInterval': -50,
-                            'amount': 0x1
-                        }, {
-                            'interval': -1200,
-                            'repeatInterval': -50,
-                            'power': 0x2
-                        }, {
-                            'interval': -250,
-                            'repeatInterval': -50,
-                        }, {
-                            'penetrating': 0x2,
-                            'power': 0x2
-                        }],
-                        [_0x202927['G_SHIELD']]: [{
-                            'level': 0x1,
-                            'bulletType': _0x202927['G_SHIELD'],
-                            'name': 'Gordon\'s Shield',
-                            'description': 'Reduces incoming damage by 2.',
-                            'texture': 'ARSENAL',
-                            'frameName': 'shield_02c.png',
-                            'isUnlocked': !0x0,
-                            'rarity': 0,
-                            'isPowerUp': !0x0,
-                            'armor': 0x2
-                        }, {
-                            'armor': 0x2
-                        }, {
-                            'armor': 0x2
-                        }, {
-                            'armor': 0x2
-                        }, {
-                            'armor': 0x2
-                        }]
+                                'level': 0x1,
+                                'hidden': !0x1,
+                                'bulletType': _0x202927[_0x2f72b3(0x756)],
+                                'name': 'Tiragisú',
+                                'description': 'Revives once with 50% health.',
+                                'texture': 'items',
+                                'frameName': 'Tiramisu.png',
+                                'evoSynergy': [_0x202927[_0x2f72b3(0x1eb)], _0x202927[_0x2f72b3(0x54c)]],
+                                'evoInto': _0x202927['GUNS3'],
+                                'isUnlocked': !0x1,
+                                'rarity': 0x28,
+                                'isPowerUp': !0x0,
+                                'revivals': 0x1
+                            }, {
+                                'revivals': 0x1
+                            }] // <------ AND ADD A COMMA TO THE END OF THIS LINE
+                            /*      //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
+                            [_0x202927['LONGSWORD']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['LONGSWORD'],
+                                'name': 'Longsword',
+                                'description': 'Attacks horizontally, passes through enemies. Smaller and Faster than Whip.',
+                                'tips': 'Ignores: speed, duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'sword_03c.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0xf,
+                                'rarity': 15,
+                                'interval': 750, //1350
+                                'repeatInterval': 0x64, //100
+                                'power': 1.7, //0x1
+                                'area': 0.7, //0x1
+                                'speed': 0.7, //0x1
+                                'amount': 0x1, //0x1
+                                'hitsWalls': !0x1, //!0x1
+                                'critChance': 0.6, //0.2
+                                'critMul': 2.2 //0x2
+                            }, {
+                                'power': 0.3,
+                                'penetrating': 0x1
+                            }, {
+                                'power': 0.3
+                            }, {
+                                'power': 0.3,
+                                'interval': -50
+                            }, {
+                                'power': 0.4,
+                                'interval': -50
+                            }, {
+                                'power': 0.4,
+                                'interval': -100
+                            }, {
+                                'power': 0.5,
+                                'interval': -100
+                            }, {
+                                'power': 0.5,
+                                'interval': -150
+                            }],
+                            [_0x202927['KI']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['KI'],
+                                'name': 'Ki Blast',
+                                'description': 'Saiyan Energy Blast. Fired at closest enemy.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'KI',
+                                'frameName': 'smallki.png',
+                                'isUnlocked': 0x0,
+                                'poolLimit': 0x3c,
+                                'rarity': 0, //100
+                                'interval': 0x4b0,
+                                'repeatInterval': 0x64,
+                                'power': 0x1,
+                                'area': 0x1,
+                                'speed': 1.2,
+                                'amount': 0x1,
+                                'penetrating': 0x1
+                            }, {
+                                'amount': 0x1
+                            }, {
+                                'interval': -0xc8,
+                                'power': 0x1
+                            }, {
+                                'amount': 0x2
+                            }, {
+                                'power': 0x1
+                            }, {
+                                'amount': 0x2,
+                                'speed': 0x2
+                            }, {
+                                'penetrating': 0x2,
+                                'power': 0x1,
+                            }, {
+                                'interval': -0x1f4,
+                            }],
+                            [_0x202927['SKULL']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['SKULL'],
+                                'name': 'Necronomicon',
+                                'description': 'Starts with 2 Projectiles. Penetrates 2 Enemies. Slight Knockback.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'book_06f.png', //skull.png
+                                'isUnlocked': 0x0,
+                                'poolLimit': 0x3c,
+                                'rarity': 15,
+                                'interval': 0x898, //0x4b0
+                                'repeatInterval': 0x64,
+                                'power': 0.50,
+                                'area': 0x1,
+                                'speed': 0x1,
+                                'amount': 0x2, //0x1
+                                'penetrating': 0x2 //0x1
+                            }, {
+                                'amount': 0x1
+                            }, {
+                                'interval': -0xc8,
+                                'power': 0x1
+                            }, {
+                                'amount': 0x2
+                            }, {
+                                'power': 0x1
+                            }, {
+                                'amount': 0x2,
+                                'speed': 0x2
+                            }, {
+                                'penetrating': 0x2,
+                                'power': 0x1,
+                            }, {
+                                'amount': 0x1,
+                                'interval': -0x1f4,
+                            }],
+                            [_0x202927['SPEAR']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['SPEAR'],
+                                'name': 'Spear',
+                                'description': 'Fires slowly in the faced direction. Massive pentration.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'spear_01.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0x46,
+                                'rarity': 15,
+                                'interval': 2750, //1000
+                                'repeatInterval': 0x64, //100
+                                'power': 0.75, //0.65
+                                'area': 0x1,
+                                'speed': 1.15, //0x1
+                                'amount': 0x1,
+                                'penetrating': 0x2, //0x1
+                                'knockback': 0.5, //0.5
+                                'critChance': 0.3, //0.3 
+                                'critMul': 0x5 //0x3
+                            }, {
+                                'knockback': 0.5,
+                                'penetrating': 0x2
+                            }, {
+                                'penetrating': 0x2,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x2,
+                                'repeatInterval': -0x14
+                            }, {
+                                'penetrating': 0x2
+                            }, {
+                                'penetrating': 0x2,
+                                'repeatInterval': -0x14
+                            }, {
+                                'penetrating': 0x2,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x1,
+                                'repeatInterval': -0x14
+                            }],
+                            [_0x202927['ROCKET1']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['ROCKET1'],
+                                'name': 'Rocket Mk.1',
+                                'description': 'Fired at the nearest enemy. Scaling Crit and Power.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'b_missile_f.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0x46,
+                                'rarity': 0,
+                                'interval': 2750,
+                                'repeatInterval': 0x64,
+                                'power': 0.50,
+                                'area': 0x1,
+                                'speed': 1.0,
+                                'amount': 0x1,
+                                'penetrating': 0x0,
+                                'knockback': 0.5,
+                                'critChance': 0.3,
+                                'critMul': 0x5
+                            }, {
+                                'critChance': 0.2
+                            }, {
+                                'critChance': 0.2,
+                                'power': 0.5
+                            }, {
+                                'critChance': 0.2,
+                                'repeatInterval': -0x14
+                            }, {
+                                'power': 0.5
+                            }, {
+                                'critChance': 0.2,
+                                'repeatInterval': -0x14
+                            }, {
+                                'critChance': 0.2,
+                                'power': 0.5
+                            }, {
+                                'repeatInterval': -0x14
+                            }],
+                            [_0x202927['ROCKET2']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['ROCKET2'],
+                                'name': 'Rocket Mk.2',
+                                'description': 'Fired at the nearest enemy. Scaling Speed and Power. Slight Knockback.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'a_missile_f.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0x46,
+                                'rarity': 0,
+                                'interval': 3150,
+                                'repeatInterval': 0x64,
+                                'power': 0.50,
+                                'area': 0x1,
+                                'speed': 1.15,
+                                'amount': 0x1,
+                                'penetrating': 0x0,
+                                'knockback': 0.5,
+                                'critChance': 0.3,
+                                'critMul': 0x5
+                            }, {
+                                'knockback': 0.5,
+                                'power': 0.5
+                            }, {
+                                'speed': 0.05,
+                                'power': 0.5
+                            }, {
+                                'power': 0.5,
+                                'repeatInterval': -0x14
+                            }, {
+                                'speed': 0.05
+                            }, {
+                                'speed': 0.05,
+                                'repeatInterval': -0x14
+                            }, {
+                                'speed': 0.05,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x1,
+                                'repeatInterval': -0x14
+                            }],
+                            [_0x202927['ROCKET3']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['ROCKET3'],
+                                'name': 'Rocket Mk.3',
+                                'description': 'Fired at the nearest enemy. Penetrates. ',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'super_missile_f.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0x46,
+                                'rarity': 0,
+                                'interval': 3450,
+                                'repeatInterval': 0x64,
+                                'power': 1.0,
+                                'area': 0x1,
+                                'speed': 1.0,
+                                'amount': 0x2,
+                                'penetrating': 0x1,
+                                'knockback': 0.0,
+                                'critChance': 0.3,
+                                'critMul': 0x5
+                            }, {
+                                'knockback': 0.5,
+                                'critChance': 0.1
+                            }, {
+                                'penetrating': 0x1,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x2,
+                                'interval': -500
+                            }, {
+                                'speed': 0.05
+                            }, {
+                                'penetrating': 0x1,
+                                'repeatInterval': -0x14
+                            }, {
+                                'amount': 0x1,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x1,
+                                'repeatInterval': -0x14
+                            }],
+                            [_0x202927['ROCKET4']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['ROCKET4'],
+                                'name': 'Rocket Mk.4',
+                                'description': 'Fired at the nearest enemy. Multiple weak projectiles.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'sonic_missile_f.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0x46,
+                                'rarity': 0,
+                                'interval': 3850, //1000
+                                'repeatInterval': 0x64, //100
+                                'power': 0.20, //0.65
+                                'area': 0x1,
+                                'speed': 1.15, //0x1
+                                'amount': 0x6,
+                                'penetrating': 0x0, //0x1
+                                'knockback': 0.5, //0.5
+                                'critChance': 0.3, //0.3 
+                                'critMul': 0x5 //0x3
+                            }, {
+                                'power': 0.5
+                            }, {
+                                'power': 0.5
+                            }, {
+                                'repeatInterval': -0x14
+                            }, {
+                                'power': 0.5
+                            }, {
+                                'speed': 0.10,
+                                'repeatInterval': -0x14
+                            }, {
+                                'power': 0.5
+                            }, {
+                                'amount': 0x2,
+                                'repeatInterval': -0x14
+                            }],
+                            [_0x202927['PULSE1']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['PULSE1'],
+                                'name': 'Repulsor',
+                                'description': 'Fires slow, high damage.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'greenfx_01.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0x46,
+                                'rarity': 0,
+                                'interval': 3650, //1000
+                                'repeatInterval': 0x64, //100
+                                'power': 1.15, //0.65
+                                'area': 0x1,
+                                'speed': 1.15, //0x1
+                                'amount': 0x1,
+                                'penetrating': 0x0, //0x1
+                                'knockback': 0x0, //0.5
+                                'critChance': 0.3, //0.3 
+                                'critMul': 0x5 //0x3
+                            }, {
+                                'penetrating': 0x1
+                            }, {
+                                'knockback': 0.5,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x1,
+                                'repeatInterval': -0x14
+                            }, {
+                                'penetrating': 0x1,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x1,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x1,
+                                'power': 0.5
+                            }, {
+                                'penetrating': 0x2
+                            }],
+                            [_0x202927['PULSE2']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['PULSE2'],
+                                'name': 'Pulsar',
+                                'description': 'Fires extremely fast, very low damage.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'redhit2_01.png',
+                                'isUnlocked': !0x0,
+                                'poolLimit': 0x46,
+                                'rarity': 0,
+                                'interval': 600, //1000
+                                'repeatInterval': 0x64, //100
+                                'power': 0.25, //0.65
+                                'area': 0x1,
+                                'speed': 1.65, //0x1
+                                'amount': 0x1,
+                                'penetrating': 0x0, //0x1
+                                'knockback': 1.25, //0.5
+                                'critChance': 0.3, //0.3 
+                                'critMul': 0x5 //0x3
+                            }, {
+                                'speed': 0.05
+                            }, {
+                                'penetrating': 0x1,
+                                'speed': 0.05
+                            }, {
+                                'penetrating': 0x1
+                            }, {
+                                'speed': 0.05
+                            }, {
+                                'repeatInterval': -0x14
+                            }, {
+                                'penetrating': 0x1,
+                                'speed': 0.05
+                            }, {
+                                'penetrating': 0x1,
+                                'repeatInterval': -0x14
+                            }],
+                            [_0x202927['STAR']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['STAR'],
+                                'name': 'Shuriken',
+                                'description': 'Thrown slowly, penetrates nearest enemies.',
+                                'tips': 'Ignores: duration.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'shuriken_red.png',
+                                'knockback': 0.5,
+                                'isUnlocked': !0x1,
+                                'poolLimit': 0x46,
+                                'rarity': 15,
+                                'interval': 6000, //0xfa0
+                                'repeatInterval': 250, //0xc8
+                                'power': 1.7, //0x2
+                                'area': 0x1,
+                                'speed': 1.3, //0x1
+                                'amount': 0x1,
+                                'penetrating': 0x5, //0x3
+                                'duration': 0x7d0,
+                                'hitsWalls': !0x0, //!0x1
+                                'critChance': 0.4, //0.3
+                                'critMul': 2.2 //0x2
+                            }, {
+                                'amount': 0x1
+                            }, {
+                                'interval': -1500,
+                                'power': 0x2
+                            }, {
+                                'interval': -1500,
+                                'repeatInterval': -50,
+                                'penetrating': 0x2
+                            }, {
+                                'interval': -1200,
+                                'repeatInterval': -50,
+                                'amount': 0x1
+                            }, {
+                                'interval': -1200,
+                                'repeatInterval': -50,
+                                'power': 0x2
+                            }, {
+                                'interval': -250,
+                                'repeatInterval': -50,
+                            }, {
+                                'penetrating': 0x2,
+                                'power': 0x2
+                            }],
+                            [_0x202927['G_SHIELD']]: [{
+                                'level': 0x1,
+                                'bulletType': _0x202927['G_SHIELD'],
+                                'name': 'Gordon\'s Shield',
+                                'description': 'Reduces incoming damage by 2.',
+                                'texture': 'ARSENAL',
+                                'frameName': 'shield_02c.png',
+                                'isUnlocked': !0x0,
+                                'rarity': 0,
+                                'isPowerUp': !0x0,
+                                'armor': 0x2
+                            }, {
+                                'armor': 0x2
+                            }, {
+                                'armor': 0x2
+                            }, {
+                                'armor': 0x2
+                            }, {
+                                'armor': 0x2
+                            }]
+                            */ //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE --->
                     };
                     class _0x17979c extends _0x45cc8a {
                         constructor() {
@@ -19846,7 +19846,9 @@
                             'arcanaType': _0x46df06[_0x2f72b3(0x580)],
                             'name': 'VII - Iron Blue Will',
                             'description': 'Listed weapon projectiles gain up to 3 bounces and pass through enemies and walls.',
-                            'weapons': [_0x202927['KNIFE'], _0x202927['THOUSAND'], _0x202927['SPEAR'], _0x202927['SKULL'], _0x202927['AXE'], _0x202927['STAR'], _0x202927['SCYTHE'], _0x202927[_0x2f72b3(0x1eb)], _0x202927[_0x2f72b3(0x54c)], _0x202927['CART2']],
+                            'weapons': [_0x202927['KNIFE'], _0x202927['THOUSAND'], _0x202927['AXE'], _0x202927['STAR'], _0x202927['SCYTHE'], _0x202927[_0x2f72b3(0x1eb)], _0x202927[_0x2f72b3(0x54c)], _0x202927['CART2']],
+                            // TO ENABLE MY ITEMS SWAP THE BELOW LINE WITH THE ABOVE
+                            // 'weapons': [_0x202927['KNIFE'], _0x202927['THOUSAND'], _0x202927['SPEAR'], _0x202927['SKULL'], _0x202927['AXE'], _0x202927['STAR'], _0x202927['SCYTHE'], _0x202927[_0x2f72b3(0x1eb)], _0x202927[_0x2f72b3(0x54c)], _0x202927['CART2']],
                             'items': [],
                             'texture': 'randomazzo',
                             'frameName': '07.png',
@@ -19897,7 +19899,9 @@
                             'arcanaType': _0x46df06[_0x2f72b3(0x88a)],
                             'name': 'XI - Waltz of Pearls',
                             'description': 'Listed weapon projectiles gain up to 3 bounces.',
-                            'weapons': [_0x202927[_0x2f72b3(0xb5b)], _0x202927[_0x2f72b3(0xa8a)], _0x202927['KI'], _0x202927['FIREBALL'], _0x202927[_0x2f72b3(0xb7d)], _0x202927[_0x2f72b3(0x1be)], _0x202927[_0x2f72b3(0x65f)], _0x202927[_0x2f72b3(0x4b0)]],
+                            'weapons': [_0x202927[_0x2f72b3(0xb5b)], _0x202927[_0x2f72b3(0xa8a)], _0x202927['FIREBALL'], _0x202927[_0x2f72b3(0xb7d)], _0x202927[_0x2f72b3(0x1be)], _0x202927[_0x2f72b3(0x65f)], _0x202927[_0x2f72b3(0x4b0)]],
+                            // TO ENABLE MY ITEMS SWAP THE BELOW LINE WITH THE ABOVE
+                            // 'weapons': [_0x202927[_0x2f72b3(0xb5b)], _0x202927[_0x2f72b3(0xa8a)], _0x202927['KI'], _0x202927['FIREBALL'], _0x202927[_0x2f72b3(0xb7d)], _0x202927[_0x2f72b3(0x1be)], _0x202927[_0x2f72b3(0x65f)], _0x202927[_0x2f72b3(0x4b0)]],
                             'items': [],
                             'texture': 'randomazzo',
                             'frameName': '11.png',
@@ -19961,7 +19965,9 @@
                             'arcanaType': _0x46df06[_0x2f72b3(0x61b)],
                             'name': 'XVI - Slash',
                             'description': 'Enables critical hits for listed weapons. Doubles overall critical damage.',
-                            'weapons': [_0x202927[_0x2f72b3(0x2c6)], _0x202927[_0x2f72b3(0x858)], _0x202927[_0x2f72b3(0x661)], _0x202927[_0x2f72b3(0x547)], _0x202927[_0x2f72b3(0x933)], _0x202927['SCYTHE'], _0x202927['LONGSWORD'], _0x202927[_0x2f72b3(0x65f)]],
+                            'weapons': [_0x202927[_0x2f72b3(0x2c6)], _0x202927[_0x2f72b3(0x858)], _0x202927[_0x2f72b3(0x661)], _0x202927[_0x2f72b3(0x547)], _0x202927[_0x2f72b3(0x933)], _0x202927['SCYTHE'], _0x202927[_0x2f72b3(0x65f)]],
+                            // TO ENABLE MY ITEMS SWAP THE BELOW LINE WITH THE ABOVE
+                            //'weapons': [_0x202927[_0x2f72b3(0x2c6)], _0x202927[_0x2f72b3(0x858)], _0x202927[_0x2f72b3(0x661)], _0x202927[_0x2f72b3(0x547)], _0x202927[_0x2f72b3(0x933)], _0x202927['SCYTHE'], _0x202927['LONGSWORD'], _0x202927[_0x2f72b3(0x65f)]],
                             'items': [],
                             'texture': 'randomazzo',
                             'frameName': '16.png',
@@ -21048,6 +21054,7 @@
                                     this[_0x172985(0x6a3)][_0x172985(0x519)](this['x'], this['y']);
                                 }
                         },
+                        /*  //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                         KI = class extends _0x392d79 {
                             constructor(_0x5e853f, _0x157930, _0x4f94cc, _0x511dde, _0x486e39) {
                                     const _0x26eb7d = _0x2f72b3;
@@ -21439,55 +21446,7 @@
                                     this[_0x172985(0x6a3)][_0x172985(0x519)](this['x'], this['y']);
                                 }
                         },
-                        /*
-                        SKULL = class extends _0x392d79 {
-                            constructor(_0x5e853f, _0x157930, _0x4f94cc, _0x511dde, _0x486e39) {
-                                const _0x26eb7d = _0x2f72b3;
-                                super(_0x5e853f, _0x157930, _0x4f94cc, 'ARSENAL', 'skull3.png', _0x511dde, _0x486e39),
-                                this[_0x26eb7d(0x6a3)] = this[_0x26eb7d(0x65c)][_0x26eb7d(0x1a2)]['particles']('ARSENAL'),
-                                this['PfxEmitter']['createEmitter']({
-                                    'frame': ['PfxUnHoly1.png', 'PfxUnHoly2.png'],
-                                    'speed': {
-                                        'min': 0xf,
-                                        'max': 0x1e
-                                    },
-                                    'quantity': 0x1,
-                                    'lifespan': 0x12c,
-                                    'alpha': {
-                                        'start': 0x1,
-                                        'end': 0x0
-                                    },
-                                    'on': !0x1
-                                });
-                            }
-                            [_0x2f72b3(0x120)]() {
-                                const _0x3dc250 = _0x2f72b3;
-                                super['OnRecycle'](),
-                                this[_0x3dc250(0x744)]['setCircle'](0x8),
-                                this[_0x3dc250(0xa8e)](_0x2adcea[_0x3dc250(0x10c)] * this['weapon'][_0x3dc250(0x98e)]),
-                                this['x'] += (Math['random']() - 0.5) * this[_0x3dc250(0xb70)] * 0xa,
-                                this['y'] += (Math[_0x3dc250(0x6d6)]() - 0.5) * this[_0x3dc250(0xb70)] * 0xa,
-                                this[_0x3dc250(0x396)]();
-                                let _0x2ba40e = this[_0x3dc250(0x432)][_0x3dc250(0x362)] ? this[_0x3dc250(0x432)][_0x3dc250(0x362)] : 0.15;
-                                _0x428bf7[_0x3dc250(0x477)]['PlaySound'](_0x276b51['MagicMissile'], {
-                                    'detune': -0x64 * this['indexInWeapon'],
-                                    'volume': _0x2ba40e
-                                }, 0xc8, 0xc);
-                            }
-                            ['OnHasHitAnObject'](_0x664ccd) {
-                                const _0x111122 = _0x2f72b3;
-                                if (!_0x664ccd[_0x111122(0x990)]) {
-                                    if (this['bounces'] > 0x0)
-                                        return this[_0x111122(0xa93)]--, this[_0x111122(0x5f3)](), void(this[_0x111122(0x289)] = []);
-                                    this['penetrating']--,
-                                    this[_0x111122(0x4c7)] <= 0x0 && this[_0x111122(0x263)]();
-                                }
-                            }
-                            [_0x2f72b3(0x2c2)]() {
-                                const _0x172985 = _0x2f72b3;
-                                this[_0x172985(0x6a3)][_0x172985(0x519)](this['x'], this['y']);
-                            }
-                        },*/
+                        */ //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                         _0x11c9fc = class extends _0x1b1cd6 {},
                         _0x20af52 = class extends _0x392d79 {
                             constructor(_0x420f20, _0x18a227, _0x4694a7, _0x1ba33b, _0x5af943) {
@@ -21543,6 +21502,7 @@
                                         });
                                 }
                         },
+                        /*      //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                         LONGSWORD = class extends _0x392d79 {
                             constructor(_0x420f20, _0x18a227, _0x4694a7, _0x1ba33b, _0x5af943) {
                                     const _0x1a9e2d = _0x2f72b3;
@@ -21597,6 +21557,7 @@
                                         });
                                 }
                         },
+                        */ //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                         _0xc10da0 = class extends _0x392d79 {
                             constructor(_0x5c304c, _0x348e7c, _0x4bfd70, _0x12d04f, _0x496baf) {
                                     const _0x57b151 = _0x2f72b3;
@@ -22024,107 +21985,6 @@
                                         this[_0xc63748(0x511)][this[_0xc63748(0x867)]]['y'] = this['y'];
                                 }
                         },
-                        /*AXE*/
-                        /*STAR = class extends _0x392d79 {
-                            constructor(_0x257e5d, _0xa69047, _0x51b55e, _0x3305a3, _0xab2841) {
-                                const _0x2bf1d2 = _0x2f72b3;
-                                super(_0x257e5d, _0xa69047, _0x51b55e, 'ARSENAL', 'ninja_star.png', _0x3305a3, _0xab2841),
-                                this[_0x2bf1d2(0x511)] = new Array(),
-                                this[_0x2bf1d2(0xa2b)] = 0x1,
-                                this['historyIndex'] = 0x0,
-                                this['initialVelocity'] = new Phaser['Math']['Vector2'](),
-                                this[_0x2bf1d2(0x94d)] = 0x0,
-                                this['grav'] = 0.825, //this['grav'] = 0.625,
-                                this[_0x2bf1d2(0xa8e)](_0x2adcea[_0x2bf1d2(0x10c)] * this['weapon'][_0x2bf1d2(0x98e)]),
-                                this[_0x2bf1d2(0x11a)] = this['scene'][_0x2bf1d2(0x7d2)][_0x2bf1d2(0x1a2)]({
-                                    'targets': this,
-                                    'angle': 0x5A, //'angle': 0x168,
-                                    'duration': 0x3e8,
-                                    'ease': 'Linear',
-                                    'repeat': -0x1
-                                }),
-                                this['MovementTween'] = this['scene'][_0x2bf1d2(0x7d2)]['add']({
-                                    'targets': this,
-                                    'moveAngle': Math['PI'],
-                                    'duration': 0x3e8,
-                                    'ease': 'Linear'
-                                }),
-                                this[_0x2bf1d2(0x409)] = new Array();
-                                for (let _0x351618 = 0x0; _0x351618 < this[_0x2bf1d2(0xa2b)]; _0x351618++) {
-                                    this['posHistory']['push'](new Phaser[(_0x2bf1d2(0x18a))]['Vector2'](_0xa69047, _0x51b55e));
-                                    var _0xb165de = this[_0x2bf1d2(0x65c)]['add']['image'](0x0, 0x0, this['texture'][_0x2bf1d2(0x629)], this[_0x2bf1d2(0x5b1)]['name'])[_0x2bf1d2(0xa8e)](_0x2adcea[_0x2bf1d2(0x10c)])['setVisible'](!0x1)['setTint'](0xff)['setAlpha'](0.75 - 0.25 * _0x351618);
-                                    this[_0x2bf1d2(0x409)]['push'](_0xb165de);
-                                }
-                            }
-                            [_0x2f72b3(0x120)]() {
-                                const _0x191288 = _0x2f72b3;
-                                super['OnRecycle'](),
-                                this['body'][_0x191288(0x980)](0xc),
-                                this['_speed'] = 0x2,
-                                this[_0x191288(0xa8e)](_0x2adcea['PixelScale'] * this['weapon'][_0x191288(0x98e)]);
-                                const _0x1ef9f5 = _0x428bf7[_0x191288(0x6f7)]['Player'][_0x191288(0x596)]['dot'](Phaser[_0x191288(0x18a)][_0x191288(0x563)][_0x191288(0x1f6)]) < 0x0 ? -0x1 : 0x1;
-                                var _0x3aa858 = 0x2d * _0x1ef9f5 / this['weapon'][_0x191288(0x171)] * this['indexInWeapon'] - 0x5a;
-                                this['startingAngle'] = _0x3aa858,
-                                this['scene'][_0x191288(0x93f)][_0x191288(0x789)](Phaser[_0x191288(0x18a)][_0x191288(0x97e)](_0x3aa858), this[_0x191288(0x12e)], this[_0x191288(0x744)][_0x191288(0x355)]),
-                                this['initialVelocity']['x'] = this[_0x191288(0x744)]['velocity']['x'],
-                                this['initialVelocity']['y'] = Math[_0x191288(0x48c)](-0x258, this['body'][_0x191288(0x355)]['y']);
-                                for (let _0x564c3d = 0x0; _0x564c3d < this[_0x191288(0x511)]['length']; _0x564c3d++)
-                                    this[_0x191288(0x511)][_0x564c3d]['x'] = this['x'], this[_0x191288(0x511)][_0x564c3d]['y'] = this['y'];
-                                this['moveAngle'] = Phaser['Math']['DegToRad'](_0x3aa858),
-                                this['MovementTween'] = this[_0x191288(0x65c)][_0x191288(0x7d2)]['add']({
-                                    'targets': this,
-                                    'moveAngle': Phaser['Math'][_0x191288(0x97e)](_0x3aa858 + 0xb4 * _0x1ef9f5),
-                                    'duration': 0x5dc,
-                                    'ease': 'Linear'
-                                }),
-                                _0x428bf7['Sound'][_0x191288(0x229)](_0x276b51['Shot'], {
-                                    'detune': -0x64 * this['indexInWeapon'],
-                                    'volume': 0.45
-                                }, 0xc8, 0xa),
-                                this['isCullable'] = !0x1;
-                            }
-                            ['DeSpawn']() {
-                                const _0x17d85f = _0x2f72b3;
-                                var _0x1ff9c8,
-                                _0x1b5b97;
-                                super['DeSpawn'](),
-                                null === (_0x1ff9c8 = this[_0x17d85f(0x25d)]) || void 0x0 === _0x1ff9c8 || _0x1ff9c8['stop'](),
-                                null === (_0x1b5b97 = this['ScaleTween']) || void 0x0 === _0x1b5b97 || _0x1b5b97[_0x17d85f(0x2d0)]();
-                                for (let _0x2b82ba = 0x0; _0x2b82ba < this[_0x17d85f(0x409)]['length']; _0x2b82ba++)
-                                    this[_0x17d85f(0x409)][_0x2b82ba]['setVisible'](!0x1);
-                            }
-                            [_0x2f72b3(0x9ce)](_0x5df4e5) {
-                                const _0x2457c5 = _0x2f72b3;
-                                if (!_0x5df4e5[_0x2457c5(0x990)]) {
-                                    if (this[_0x2457c5(0xa93)] > 0x0)
-                                        return this[_0x2457c5(0xa93)]--, this[_0x2457c5(0x65c)]['physics']['velocityFromRotation'](Phaser[_0x2457c5(0x18a)][_0x2457c5(0x97e)](this[_0x2457c5(0x891)]), this[_0x2457c5(0x12e)], this['body'][_0x2457c5(0x355)]), this['initialVelocity']['x'] *= -0x1, this['initialVelocity']['y'] = Math['max'](-0x258, this[_0x2457c5(0x744)][_0x2457c5(0x355)]['y']), void(this['objectsHit'] = []);
-                                    this[_0x2457c5(0x4c7)]--,
-                                    this[_0x2457c5(0x4c7)] <= 0x0 && this['DeSpawn']();
-                                }
-                            }
-                            [_0x2f72b3(0x3d8)](_0x293f63) {
-                                const _0x5d5ece = _0x2f72b3;
-                                return this['historyIndex'] + _0x293f63 >= this[_0x5d5ece(0xa2b)] ? this[_0x5d5ece(0x867)] + _0x293f63 - this[_0x5d5ece(0xa2b)] : this[_0x5d5ece(0x867)] + _0x293f63;
-                            }
-                            [_0x2f72b3(0x2c2)](_0x5c44b4) {
-                                const _0xc63748 = _0x2f72b3;
-                                this['y'] > _0x428bf7['Core'][_0xc63748(0x286)]['y'] + _0x428bf7['Core']['scene']['renderer'][_0xc63748(0x1f8)] && (this[_0xc63748(0xab2)] = !0x0, this[_0xc63748(0x263)]()),
-                                this['initialVelocity']['y'] += _0x5c44b4 * this[_0xc63748(0x2fa)],
-                                this['historyIndex'] < this[_0xc63748(0xa2b)] - 0x1 ? this['historyIndex']++ : this['historyIndex'] = 0x0;
-                                for (let _0x314cb5 = 0x0; _0x314cb5 < this[_0xc63748(0x409)][_0xc63748(0x2da)]; _0x314cb5++) {
-                                    var _0x300da3 = this['posHistory'][this[_0xc63748(0x3d8)](_0x314cb5)],
-                                    _0x32cedb = this[_0xc63748(0x409)][_0x314cb5];
-                                    _0x32cedb['angle'] = this[_0xc63748(0x76f)],
-                                    _0x32cedb['x'] = _0x300da3['x'],
-                                    _0x32cedb['y'] = _0x300da3['y'],
-                                    _0x32cedb[_0xc63748(0x66d)] = this['scale'],
-                                    _0x32cedb[_0xc63748(0x2a9)] = !0x0;
-                                }
-                                this[_0xc63748(0x928)](this['initialVelocity']['x'], this[_0xc63748(0x276)]['y']),
-                                this['posHistory'][this['historyIndex']]['x'] = this['x'],
-                                this[_0xc63748(0x511)][this[_0xc63748(0x867)]]['y'] = this['y'];
-                            }
-                        },*/
                         _0x781ff4 = class extends _0x392d79 {
                             constructor(_0x443c2f, _0x5acabc, _0x418de9, _0x27c6e4, _0x3a907d) {
                                     const _0x2406ea = _0x2f72b3;
@@ -22269,6 +22129,7 @@
                                         this['posHistory'][this[_0x4707e4(0x867)]]['y'] = this['y'];
                                 }
                         },
+                        /* //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                         SPEAR = class extends _0x392d79 {
                             constructor(_0xb7519c, _0x3b6f96, _0x134ef1, _0x222c8b, _0x1f7add) {
                                     const _0x5c3433 = _0x2f72b3;
@@ -22346,84 +22207,7 @@
                                         this['posHistory'][this[_0x4707e4(0x867)]]['y'] = this['y'];
                                 }
                         },
-                        /*KNIFE*/
-                        /*STAR = class extends _0x392d79 {
-                            constructor(_0xb7519c, _0x3b6f96, _0x134ef1, _0x222c8b, _0x1f7add) {
-                                const _0x5c3433 = _0x2f72b3;
-                                super(_0xb7519c, _0x3b6f96, _0x134ef1, 'ARSENAL', 'ninja_star.png', _0x222c8b, _0x1f7add),
-                                this[_0x5c3433(0x511)] = new Array(),
-                                this['maxHistory'] = 0x1,
-                                this['historyIndex'] = 0x0,
-                                this[_0x5c3433(0xa8e)](_0x2adcea[_0x5c3433(0x10c)] * this[_0x5c3433(0x432)][_0x5c3433(0x98e)]),
-                                this[_0x5c3433(0xaeb)](-0x5a),
-                                this['_speed'] = 0x2,
-                                this[_0x5c3433(0x409)] = new Array();
-                                for (let _0x5eb7da = 0x0; _0x5eb7da < this['maxHistory']; _0x5eb7da++) {
-                                    this[_0x5c3433(0x511)]['push'](new Phaser[(_0x5c3433(0x18a))]['Vector2'](_0x3b6f96, _0x134ef1));
-                                    var _0x3c4945 = this[_0x5c3433(0x65c)][_0x5c3433(0x1a2)][_0x5c3433(0x4b9)](0x0, 0x0, this['texture'][_0x5c3433(0x629)], this[_0x5c3433(0x5b1)]['name'])[_0x5c3433(0xa8e)](1.5 * _0x2adcea['PixelScale'], 0.75 * _0x2adcea['PixelScale'])[_0x5c3433(0xb79)](!0x1)[_0x5c3433(0x8cb)](0xff)['setAlpha'](0.5 - 0.25 * _0x5eb7da);
-                                    this[_0x5c3433(0x409)]['push'](_0x3c4945);
-                                }
-                            }
-                            [_0x2f72b3(0x120)]() {
-                                const _0x5341c6 = _0x2f72b3;
-                                super[_0x5341c6(0x120)](),
-                                this[_0x5341c6(0x744)][_0x5341c6(0x980)](0x8),
-                                this['_speed'] = 0x2;
-                                let _0x54e992 = this['weapon'][_0x5341c6(0x373)][this[_0x5341c6(0x432)][_0x5341c6(0x2c8)]++ % this[_0x5341c6(0x432)][_0x5341c6(0x373)]['length']];
-                                this['bounces'] = _0x54e992 >= 0.5 ? this[_0x5341c6(0x432)][_0x5341c6(0x847)] : 0x0,
-                                this['setScale'](_0x2adcea[_0x5341c6(0x10c)] * this['weapon']['PArea']);
-                                for (let _0x144917 = 0x0; _0x144917 < this[_0x5341c6(0x409)][_0x5341c6(0x2da)]; _0x144917++) {
-                                    var _0x42cae8 = this[_0x5341c6(0x409)][_0x144917];
-                                    _0x42cae8['setScale'](0x2 * this[_0x5341c6(0x66d)], 0.75 * this['scale']),
-                                    _0x42cae8[_0x5341c6(0xb79)](!0x0),
-                                    _0x42cae8[_0x5341c6(0xaeb)](this[_0x5341c6(0x76f)]),
-                                    _0x42cae8[_0x5341c6(0x3cd)](this['x'], this['y']);
-                                }
-                                for (let _0x32f8d7 = 0x0; _0x32f8d7 < this['posHistory'][_0x5341c6(0x2da)]; _0x32f8d7++)
-                                    this['posHistory'][_0x32f8d7]['x'] = this['x'], this[_0x5341c6(0x511)][_0x32f8d7]['y'] = this['y'];
-                                this['y'] -= 0xc,
-                                this['x'] += (Math['random']() - 0.5) * (0x0 == this['indexInWeapon'] ? 0x0 : 0x28) * this['weapon'][_0x5341c6(0x98e)],
-                                this['y'] += (Math[_0x5341c6(0x6d6)]() - 0.5) * (0x0 == this[_0x5341c6(0xb70)] ? 0x0 : 0x28) * this[_0x5341c6(0x432)]['PArea'],
-                                this[_0x5341c6(0xaa4)]();
-                                let _0x236382 = this['weapon'][_0x5341c6(0x362)] ? this['weapon'][_0x5341c6(0x362)] : 0.4;
-                                _0x428bf7[_0x5341c6(0x477)][_0x5341c6(0x229)](_0x276b51[_0x5341c6(0x4f8)], {
-                                    'detune': -0x64 * this['indexInWeapon'],
-                                    'volume': _0x236382
-                                }, 0xc8, 0xa);
-                            }
-                            [_0x2f72b3(0x263)]() {
-                                const _0x388701 = _0x2f72b3;
-                                for (let _0x309f62 = 0x0; _0x309f62 < this['ghosts']['length']; _0x309f62++)
-                                    this[_0x388701(0x409)][_0x309f62]['setVisible'](!0x1);
-                                super[_0x388701(0x263)]();
-                            }
-                            [_0x2f72b3(0x9ce)](_0x4e633c) {
-                                const _0x59cb31 = _0x2f72b3;
-                                if (!_0x4e633c[_0x59cb31(0x990)]) {
-                                    if (this[_0x59cb31(0xa93)] > 0x0)
-                                        return this['bounces']--, this[_0x59cb31(0x5f3)](), void(this['objectsHit'] = []);
-                                    this[_0x59cb31(0x4c7)]--,
-                                    this['penetrating'] <= 0x0 && this[_0x59cb31(0x263)]();
-                                }
-                            }
-                            ['getHistoryIndex'](_0x58102c) {
-                                const _0x5adf82 = _0x2f72b3;
-                                return this['historyIndex'] + _0x58102c >= this[_0x5adf82(0xa2b)] ? this[_0x5adf82(0x867)] + _0x58102c - this[_0x5adf82(0xa2b)] : this[_0x5adf82(0x867)] + _0x58102c;
-                            }
-                            ['Update']() {
-                                const _0x4707e4 = _0x2f72b3;
-                                this[_0x4707e4(0x867)] < this['maxHistory'] - 0x1 ? this['historyIndex']++ : this[_0x4707e4(0x867)] = 0x0;
-                                for (let _0x3d505a = 0x0; _0x3d505a < this[_0x4707e4(0x409)][_0x4707e4(0x2da)]; _0x3d505a++) {
-                                    var _0x501c54 = this[_0x4707e4(0x511)][this[_0x4707e4(0x3d8)](_0x3d505a)],
-                                    _0x1d2d2f = this['ghosts'][_0x3d505a];
-                                    _0x1d2d2f[_0x4707e4(0x76f)] = this[_0x4707e4(0x76f)],
-                                    _0x1d2d2f['x'] = _0x501c54['x'],
-                                    _0x1d2d2f['y'] = _0x501c54['y'];
-                                }
-                                this[_0x4707e4(0x511)][this['historyIndex']]['x'] = this['x'],
-                                this['posHistory'][this[_0x4707e4(0x867)]]['y'] = this['y'];
-                            }
-                        },*/
+                        */ //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                         _0x14b9ce = class extends _0x392d79 {
                             constructor(_0x7f18d1, _0x4cbc80, _0x575d03, _0xb01393, _0x27b1c4) {
                                     const _0x489d53 = _0x2f72b3;
@@ -22728,6 +22512,7 @@
                                         this['body']['velocity']['y'] = this['velocity']['y'] * this[_0x4523ae(0x97d)];
                                 }
                         },
+                        /*  //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                         STAR = class extends _0x392d79 {
                             constructor(_0x5e853f, _0x157930, _0x4f94cc, _0x511dde, _0x486e39) {
                                     const _0x26eb7d = _0x2f72b3;
@@ -22766,93 +22551,7 @@
                                 }
                                 [_0x2f72b3(0x2c2)]() {}
                         },
-                        /*CROSS*/
-                        /*
-                        STAR = class extends _0x392d79 {
-                            constructor(_0x4f2484, _0x521e64, _0x4f8344, _0x323a53, _0x5b989c) {
-                                const _0x12d7a6 = _0x2f72b3;
-                                super(_0x4f2484, _0x521e64, _0x4f8344, 'ARSENAL', 'shuriken_red.png', _0x323a53, _0x5b989c),
-                                this[_0x12d7a6(0x511)] = new Array(),
-                                this[_0x12d7a6(0xa2b)] = 0x3,
-                                this['historyIndex'] = 0x0,
-                                this[_0x12d7a6(0x97d)] = 0x1,
-                                this[_0x12d7a6(0x355)] = new Phaser[(_0x12d7a6(0x18a))][(_0x12d7a6(0x563))](0x0, 0x0),
-                                this[_0x12d7a6(0x119)] = !0x1,
-                                this[_0x12d7a6(0x11a)] = this[_0x12d7a6(0x65c)][_0x12d7a6(0x7d2)][_0x12d7a6(0x1a2)]({
-                                    'targets': this,
-                                    'angle': 0x168,
-                                    'duration': 500,
-                                    'ease': 'Linear',
-                                    'repeat': -0x1
-                                }),
-                                this['AccelTween'] = this[_0x12d7a6(0x65c)]['tweens'][_0x12d7a6(0x1a2)]({
-                                    'targets': this,
-                                    'accel': -0x2,
-                                    'duration': 0x3e8,
-                                    'ease': 'Linear'
-                                }),
-                                this['ghosts'] = new Array();
-                                for (let _0x152d16 = 0x0; _0x152d16 < this[_0x12d7a6(0xa2b)]; _0x152d16++) {
-                                    this['posHistory'][_0x12d7a6(0x33a)](new Phaser[(_0x12d7a6(0x18a))][(_0x12d7a6(0x563))](_0x521e64, _0x4f8344));
-                                    var _0x4f52ed = this[_0x12d7a6(0x65c)][_0x12d7a6(0x1a2)]['image'](0x0, 0x0, this['texture']['key'], this['frame']['name'])[_0x12d7a6(0xa8e)](_0x2adcea[_0x12d7a6(0x10c)])['setVisible'](!0x1)[_0x12d7a6(0x8cb)](0xffff66)['setAlpha'](0.75 - 0.15 * _0x152d16);
-                                    this['ghosts']['push'](_0x4f52ed);
-                                }
-                                this[_0x12d7a6(0x409)][_0x12d7a6(0x87a)](),
-                                this[_0x12d7a6(0x119)] = !0x1;
-                            }
-                            [_0x2f72b3(0x120)]() {
-                                const _0x3bdb0a = _0x2f72b3;
-                                super['OnRecycle'](),
-                                this[_0x3bdb0a(0x744)][_0x3bdb0a(0x980)](0xc),
-                                this[_0x3bdb0a(0xa8e)](_0x2adcea[_0x3bdb0a(0x10c)] * this[_0x3bdb0a(0x432)]['PArea']),
-                                this[_0x3bdb0a(0x97d)] = 1.5 + 0.1 * this['indexInWeapon'],
-                                this['AccelTween']['restart']();
-                                for (let _0x3659d3 = 0x0; _0x3659d3 < this[_0x3bdb0a(0x511)][_0x3bdb0a(0x2da)]; _0x3659d3++)
-                                    this['posHistory'][_0x3659d3]['x'] = this['x'], this[_0x3bdb0a(0x511)][_0x3659d3]['y'] = this['y'];
-                                this['x'] += (Math[_0x3bdb0a(0x6d6)]() - 0.5) * this[_0x3bdb0a(0xb70)] * 0x14 * this['weapon'][_0x3bdb0a(0x98e)],
-                                this['y'] += (Math[_0x3bdb0a(0x6d6)]() - 0.5) * this[_0x3bdb0a(0xb70)] * 0x14 * this['weapon'][_0x3bdb0a(0x98e)],
-                                this['AimForNearestEnemy'](),
-                                this[_0x3bdb0a(0x355)][_0x3bdb0a(0x34c)](this['body']['velocity']),
-                                _0x428bf7['Sound'][_0x3bdb0a(0x229)](_0x276b51[_0x3bdb0a(0x4f8)], {
-                                    'detune': -0x64 * this[_0x3bdb0a(0xb70)],
-                                    'volume': 0.45
-                                }, 0xc8, 0xa),
-                                this[_0x3bdb0a(0x9c1)](this['y'] - _0x428bf7[_0x3bdb0a(0x6f7)][_0x3bdb0a(0x286)]['y'] + 0x2 * this[_0x3bdb0a(0x65c)]['renderer']['height']),
-                                this['weapon'][_0x3bdb0a(0x847)] && !this[_0x3bdb0a(0x119)] && (this['bounceActivated'] = !0x0, this[_0x3bdb0a(0x65c)]['physics']['world']['on']('worldbounds', this[_0x3bdb0a(0x1ed)], this), this[_0x3bdb0a(0x66b)](!0x0, 0x1, 0x1), this['body']['setBoundsRectangle'](_0x428bf7[_0x3bdb0a(0x6f7)]['Player'][_0x3bdb0a(0x55b)]), this[_0x3bdb0a(0x744)][_0x3bdb0a(0x4fa)] = !0x0),
-                                this[_0x3bdb0a(0x119)] && this[_0x3bdb0a(0x66b)](!0x0, 0x1, 0x1);
-                            }
-                            ['Bounce'](_0x3231c7) {
-                                const _0x2ab1d2 = _0x2f72b3;
-                                this[_0x2ab1d2(0x744)] === _0x3231c7 && (this[_0x2ab1d2(0xa93)] > 0x0 ? (this[_0x2ab1d2(0xa93)]--, this['velocity']['x'] *= -0x1, this[_0x2ab1d2(0x355)]['y'] *= -0x1, this['objectsHit'] = []) : this[_0x2ab1d2(0x66b)](!0x1, 0x1, 0x1));
-                            }
-                            ['DeSpawn']() {
-                                const _0x5b9ec5 = _0x2f72b3;
-                                super[_0x5b9ec5(0x263)]();
-                                for (let _0x416624 = 0x0; _0x416624 < this[_0x5b9ec5(0x409)]['length']; _0x416624++)
-                                    this[_0x5b9ec5(0x409)][_0x416624][_0x5b9ec5(0xb79)](!0x1);
-                            }
-                            ['getHistoryIndex'](_0x96f35c) {
-                                const _0x4ad3f5 = _0x2f72b3;
-                                return this[_0x4ad3f5(0x867)] + _0x96f35c >= this[_0x4ad3f5(0xa2b)] ? this['historyIndex'] + _0x96f35c - this[_0x4ad3f5(0xa2b)] : this[_0x4ad3f5(0x867)] + _0x96f35c;
-                            }
-                            [_0x2f72b3(0x2c2)]() {
-                                const _0x4523ae = _0x2f72b3;
-                                this[_0x4523ae(0x867)] < this[_0x4523ae(0xa2b)] - 0x1 ? this[_0x4523ae(0x867)]++ : this[_0x4523ae(0x867)] = 0x0;
-                                for (let _0x5f8f27 = 0x0; _0x5f8f27 < this[_0x4523ae(0x409)][_0x4523ae(0x2da)]; _0x5f8f27++) {
-                                    var _0x3781a4 = this[_0x4523ae(0x511)][this['getHistoryIndex'](_0x5f8f27)],
-                                    _0x5cb210 = this['ghosts'][_0x5f8f27];
-                                    _0x5cb210[_0x4523ae(0x76f)] = this['angle'],
-                                    _0x5cb210['x'] = _0x3781a4['x'],
-                                    _0x5cb210['y'] = _0x3781a4['y'],
-                                    _0x5cb210[_0x4523ae(0x66d)] = this['scale'],
-                                    _0x5cb210['visible'] = !0x0;
-                                }
-                                this[_0x4523ae(0x511)][this[_0x4523ae(0x867)]]['x'] = this['x'],
-                                this['posHistory'][this[_0x4523ae(0x867)]]['y'] = this['y'],
-                                this['body'][_0x4523ae(0x355)]['x'] = this['velocity']['x'] * this['accel'],
-                                this['body']['velocity']['y'] = this['velocity']['y'] * this[_0x4523ae(0x97d)];
-                            }
-                        },*/
+                        */
                         _0x24a919 = class extends _0x392d79 {
                             constructor(_0x19e828, _0x1e761f, _0x27cb78, _0x5f14c5, _0x534c91) {
                                     const _0x3b2dfd = _0x2f72b3;
@@ -26717,28 +26416,30 @@
                                         return new _0x392d79(this, 0x0, 0x0, 'ball', 0x0, _0x3c322b, _0x3639b0);
                                     case _0x202927['AXE']:
                                             return new _0x482b5b(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['STAR']:
-                                            return new STAR(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['KI']:
-                                            return new KI(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['ROCKET1']:
-                                            return new ROCKET1(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['ROCKET2']:
-                                            return new ROCKET2(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['ROCKET3']:
-                                            return new ROCKET3(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['ROCKET4']:
-                                            return new ROCKET4(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['PULSE1']:
-                                            return new PULSE1(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['PULSE2']:
-                                            return new PULSE2(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['LONGSWORD']:
-                                            return new LONGSWORD(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['SPEAR']:
-                                            return new SPEAR(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
-                                    case _0x202927['SKULL']:
-                                            return new SKULL(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        /*      //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
+                                        case _0x202927['STAR']:
+                                                return new STAR(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['KI']:
+                                                return new KI(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['ROCKET1']:
+                                                return new ROCKET1(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['ROCKET2']:
+                                                return new ROCKET2(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['ROCKET3']:
+                                                return new ROCKET3(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['ROCKET4']:
+                                                return new ROCKET4(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['PULSE1']:
+                                                return new PULSE1(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['PULSE2']:
+                                                return new PULSE2(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['LONGSWORD']:
+                                                return new LONGSWORD(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['SPEAR']:
+                                                return new SPEAR(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        case _0x202927['SKULL']:
+                                                return new SKULL(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
+                                        */
                                     case _0x202927['SCYTHE']:
                                             return new _0x345d08(this, 0x0, 0x0, _0x3c322b, _0x3639b0);
                                     case _0x202927[_0x5b9f13(0x2c6)]:
@@ -29326,39 +29027,41 @@
                                     case _0x202927['SCYTHE']:
                                             _0x2536e4 = new _0x34adc7(_0x1fc7e3);
                                         break;
-                                    case _0x202927['KI']:
-                                            _0x2536e4 = new KI_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['ROCKET1']:
-                                            _0x2536e4 = new R1_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['ROCKET2']:
-                                            _0x2536e4 = new R2_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['ROCKET3']:
-                                            _0x2536e4 = new R3_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['ROCKET4']:
-                                            _0x2536e4 = new R4_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['PULSE1']:
-                                            _0x2536e4 = new P1_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['PULSE2']:
-                                            _0x2536e4 = new P2_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['LONGSWORD']:
-                                            _0x2536e4 = new LONG_SWORD(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['SPEAR']:
-                                            _0x2536e4 = new SPEAR_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['STAR']:
-                                            _0x2536e4 = new STAR_BULLET(_0x1fc7e3);
-                                        break;
-                                    case _0x202927['SKULL']:
-                                            _0x2536e4 = new SKULL_BULLET(_0x1fc7e3);
-                                        break;
+                                        /*      //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
+                                        case _0x202927['KI']:
+                                                _0x2536e4 = new KI_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['ROCKET1']:
+                                                _0x2536e4 = new R1_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['ROCKET2']:
+                                                _0x2536e4 = new R2_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['ROCKET3']:
+                                                _0x2536e4 = new R3_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['ROCKET4']:
+                                                _0x2536e4 = new R4_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['PULSE1']:
+                                                _0x2536e4 = new P1_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['PULSE2']:
+                                                _0x2536e4 = new P2_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['LONGSWORD']:
+                                                _0x2536e4 = new LONG_SWORD(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['SPEAR']:
+                                                _0x2536e4 = new SPEAR_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['STAR']:
+                                                _0x2536e4 = new STAR_BULLET(_0x1fc7e3);
+                                            break;
+                                        case _0x202927['SKULL']:
+                                                _0x2536e4 = new SKULL_BULLET(_0x1fc7e3);
+                                            break;
+                                        */ //<-- TO ENABLE MY ITEMS, REMOVE THIS ENTIRE LINE--->
                                     case _0x202927[_0x51c926(0xb5b)]:
                                             _0x2536e4 = new _0x3afef9(_0x1fc7e3);
                                         break;
@@ -35276,6 +34979,7 @@
                                 this[_0xf0ebb8(0xa7a)][_0xf0ebb8(0x4b9)]('introBG', 'assets/img/introBG.png'),
                                     this['load']['image']('title', 'assets/img/title.png'),
                                     this[_0xf0ebb8(0xa7a)]['image']('gameOver', 'assets/img/gameOver.png'),
+                                    /*              //<-- TO ENABLE MY CHARACTERS, REMOVE THIS ENTIRE LINE --->
                                     this['load']['atlas']('CHESTER', 'mod/CharBundle/chester/chester.png', 'mod/CharBundle/chester/chester.json'),
                                     this['load']['atlas']('CLYDE', 'mod/CharBundle/clyde/clyde.png', 'mod/CharBundle/clyde/clyde.json'),
                                     this['load']['atlas']('ARSENAL', 'mod/CharBundle/arsenal/arsenal.png', 'mod/CharBundle/arsenal/arsenal.json'),
@@ -35335,6 +35039,7 @@
                                     this['load']['atlas']('SPIDERBOT', 'mod/CharBundle/mechs/spiderbot/spiderbot.png', 'mod/CharBundle/mechs/spiderbot/spiderbot.json'),
                                     this['load']['atlas']('SUIT', 'mod/CharBundle/mechs/suit/suit.png', 'mod/CharBundle/mechs/suit/suit.json'),
                                     this['load']['atlas']('KI', 'mod/CharBundle/goku/blasts.png', 'mod/CharBundle/goku/blasts.json'),
+                                    */ //<-- TO ENABLE MY CHARACTERS, REMOVE THIS ENTIRE LINE --->
                                     this[_0xf0ebb8(0xa7a)][_0xf0ebb8(0x4b9)]('stageComplete', 'assets/img/stageComplete.png'),
                                     this['load']['atlas']('UI', 'assets/img/UI.png', 'assets/img/UI.json'),
                                     this[_0xf0ebb8(0xa7a)]['atlas']('enemies', 'assets/img/enemies.png', 'assets/img/enemies.json'),
