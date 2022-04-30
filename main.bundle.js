@@ -16072,6 +16072,7 @@
                             _0x21c54f['Defeat3000Buers'] = 'Defeat3000Buers',
                             _0x21c54f[_0x5860ce(0x828)] = 'ReachLV100WithCavallo',
                             _0x21c54f[_0x5860ce(0x151)] = 'ReachLV40InLibrary',
+                            _0x21c54f['ReachLV100InBoneZone'] = 'ReachLV100InBoneZone',
                             _0x21c54f[_0x5860ce(0x170)] = 'DefeatBossPlant',
                             _0x21c54f[_0x5860ce(0x302)] = 'FindMilkyWayMap',
                             _0x21c54f[_0x5860ce(0x6c9)] = 'FindCoffinStage3',
@@ -16133,6 +16134,13 @@
                                 'stageToUnlock': _0xe12f59[_0x2f72b3(0x4f1)],
                                 'achieved': !0x1
                             },
+
+                            [_0x4943e2['ReachLV100InBoneZone']]: {
+                                'description': 'Reach Level 100 in The Bone Zone.',
+                                'stageToUnlock': _0xe12f59['LIBRARY_E'],
+                                'achieved': !0x1
+                            },
+
                             [_0x4943e2['ReachLV60InDairyPlant']]: {
                                 'description': 'Reach Level 60 in Dairy Plant.',
                                 'stageToUnlock': _0xe12f59['TOWER'],
@@ -16624,7 +16632,6 @@
                         _0x308500 = {
                             [_0xe12f59[_0x2f72b3(0x6e0)]]: [],
                             [_0xe12f59['LIBRARY']]: [],
-                            [_0xe12f59['LIBRARY_E']]: [],
                             [_0xe12f59[_0x2f72b3(0x4f1)]]: [],
                             [_0xe12f59['TOWER']]: [],
                             [_0xe12f59[_0x2f72b3(0x952)]]: [{
@@ -17448,7 +17455,8 @@
                                 'events': [{
                                     'eventType': _0x21eccf[_0x2f72b3(0xb81)]
                                 }]
-                            }]
+                            }],
+                            [_0xe12f59['LIBRARY_E']]: []
                         };
                     class _0x18f574 extends Phaser[_0x2f72b3(0x26c)]['Sprite'] {
                         constructor(_0x3a92b1) {
@@ -20080,6 +20088,7 @@
                                 _0x428bf7['Core'][_0x209cb5(0x286)][_0x209cb5(0xb4d)] >= 0x64 && _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x286)][_0x209cb5(0x6c2)] === _0x39678f['TATANKA'] && this[_0x209cb5(0x731)](_0x4943e2['ReachLV100WithOsole']),
                                 _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x286)]['level'] >= 0x14 && _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x32e)][_0x209cb5(0xa72)] === _0xe12f59[_0x209cb5(0x6e0)] && this['UnlockAchievement'](_0x4943e2['ReachLV20InMadForest']),
                                 _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x286)]['level'] >= 0x28 && _0x428bf7['Core'][_0x209cb5(0x32e)]['SelectedStage'] === _0xe12f59['LIBRARY'] && this['UnlockAchievement'](_0x4943e2['ReachLV40InLibrary']),
+                                _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x286)]['level'] >= 0x64 && _0x428bf7['Core'][_0x209cb5(0x32e)]['SelectedStage'] === _0xe12f59['BONEZONE'] && this['UnlockAchievement'](_0x4943e2['ReachLV100InBoneZone']),
                                 _0x428bf7['Core'][_0x209cb5(0x286)]['level'] >= 0x3c && _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x32e)][_0x209cb5(0xa72)] === _0xe12f59[_0x209cb5(0x4f1)] && this['UnlockAchievement'](_0x4943e2['ReachLV60InDairyPlant']),
                                 _0x428bf7['Core'][_0x209cb5(0x286)]['level'] >= 0xa && this[_0x209cb5(0x731)](_0x4943e2[_0x209cb5(0x9c7)]),
                                 _0x428bf7['Core']['Player'][_0x209cb5(0xb4d)] >= 0x5 && this[_0x209cb5(0x731)](_0x4943e2['ReachLV5']),
@@ -33557,18 +33566,18 @@
                         },
                         LIBRARY_ENDLESS = {
                             [_0xe12f59['LIBRARY_E']]: [{
-                                'stageName': 'Endless Library',
+                                'stageName': 'Chaotic Library',
                                 'description': 'This long library isn\'t so quiet anymore. No longer a place for meditation, but rather chaos. Death dare not step foot here. 2x Enemies.',
                                 'uiTexture': 'UI',
-                                'uiFrame': 'stage_library.png',
-                                'frameName': 'stage_library_icon.png',
-                                'frameNameUnlock': 'stage_library_unlock.png',
+                                'uiFrame': 'stage_library_endless.png',
+                                'frameName': 'stage_library_endless_icon.png',
+                                'frameNameUnlock': 'stage_library_endless_unlock.png',
                                 'stageNumber': 'Endless',
-                                'unlocked': true,
+                                'unlocked': false,
                                 'hidden': false,
                                 'BGM': _0x5aaeff[_0x2f72b3(0x13f)],
                                 'legacyBGM': _0x5aaeff[_0x2f72b3(0x565)],
-                                'tips': 'No Death at 30 minutes.',
+                                'tips': 'No Death at 30 minutes. Danger ramps up at 60 minutes.',
                                 'hyperTips': '75% Gold bonus\n20% Luck bonus',
                                 'mods': {
                                     'TimeLimit': 86400,
