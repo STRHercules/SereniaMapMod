@@ -1542,7 +1542,7 @@
                         {
                          "name":"chance",
                          "type":"float",
-                         "value":0.01
+                         "value":0.05
                         }, 
                         {
                          "name":"xMultiplier",
@@ -1550,7 +1550,7 @@
                          "value":18
                         }],
                  "rotation":0,
-                 "type":"SPEAR",
+                 "type":"FIREBALL",
                  "visible":true,
                  "width":0,
                  "x":1683.77272727273,
@@ -1565,7 +1565,7 @@
                         {
                          "name":"chance",
                          "type":"float",
-                         "value":0.01
+                         "value":0.05
                         }, 
                         {
                          "name":"xMultiplier",
@@ -1573,7 +1573,7 @@
                          "value":15
                         }],
                  "rotation":0,
-                 "type":"LONGSWORD",
+                 "type":"CHERRY",
                  "visible":true,
                  "width":0,
                  "x":1706,
@@ -1588,7 +1588,7 @@
                         {
                          "name":"chance",
                          "type":"float",
-                         "value":0.01
+                         "value":0.05
                         }, 
                         {
                          "name":"xMultiplier",
@@ -1596,7 +1596,7 @@
                          "value":-14
                         }],
                  "rotation":0,
-                 "type":"STAR",
+                 "type":"HOLYBOOK",
                  "visible":true,
                  "width":0,
                  "x":1728.86363636364,
@@ -1611,7 +1611,7 @@
                         {
                          "name":"chance",
                          "type":"float",
-                         "value":0.01
+                         "value":0.05
                         }, 
                         {
                          "name":"xMultiplier",
@@ -1619,7 +1619,7 @@
                          "value":-24
                         }],
                  "rotation":0,
-                 "type":"SKULL",
+                 "type":"WHIP",
                  "visible":true,
                  "width":0,
                  "x":1752,
@@ -1766,7 +1766,7 @@
                         {
                          "name":"chance",
                          "type":"float",
-                         "value":0.01
+                         "value":0.05
                         }, 
                         {
                          "name":"xMultiplier",
@@ -1774,7 +1774,7 @@
                          "value":15
                         }],
                  "rotation":0,
-                 "type":"G_SHIELD",
+                 "type":"MAXHEALTH",
                  "visible":true,
                  "width":0,
                  "x":1773.125,
