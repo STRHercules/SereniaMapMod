@@ -33280,7 +33280,7 @@
                                 'hidden': false,
                                 'BGM': _0x5aaeff[_0x2f72b3(0x13f)],
                                 'legacyBGM': _0x5aaeff[_0x2f72b3(0x565)],
-                                'tips': 'No Death at 30 minutes. Danger ramps up at 60 minutes. Multiple possible items.',
+                                'tips': 'Endless. Danger ramps up at 60 minutes. Multiple possible items.',
                                 'hyperTips': '75% Gold bonus\n20% Luck bonus',
                                 'mods': {
                                     'TimeLimit': 86400,
