@@ -1,4 +1,6 @@
-# This is an attempt at making a map "endless".
+# Chaotic Library
+
+## This is an attempt at making a map "endless".
 
 ## Map Construction
 
