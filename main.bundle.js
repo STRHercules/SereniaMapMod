@@ -16137,7 +16137,7 @@
                             },
 
                             [_0x4943e2['SurviveOneHour']]: {
-                                'description': 'Survive 60 minutes with any character.',
+                                'description': 'Survive 30 minutes with any character.',
                                 'stageToUnlock': _0xe12f59['SERENIA'],
                                 'achieved': !0x1
                             },
@@ -20103,7 +20103,7 @@
                                 _0x428bf7['Core'][_0x209cb5(0x286)][_0x209cb5(0xb4d)] >= 0x64 && _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x286)][_0x209cb5(0x6c2)] === _0x39678f['TATANKA'] && this[_0x209cb5(0x731)](_0x4943e2['ReachLV100WithOsole']),
                                 _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x286)]['level'] >= 0x14 && _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x32e)][_0x209cb5(0xa72)] === _0xe12f59[_0x209cb5(0x6e0)] && this['UnlockAchievement'](_0x4943e2['ReachLV20InMadForest']),
                                 _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x286)]['level'] >= 0x28 && _0x428bf7['Core'][_0x209cb5(0x32e)]['SelectedStage'] === _0xe12f59['LIBRARY'] && this['UnlockAchievement'](_0x4943e2['ReachLV40InLibrary']),
-                                _0x428bf7['Core']['SurvivedSeconds'] >= 3600 && this['SurviveOneHour'](_0x4943e2['SurviveOneHour']),
+                                _0x428bf7['Core']['SurvivedSeconds'] >= 1800 && this['SurviveOneHour'](_0x4943e2['SurviveOneHour']),
                                 _0x428bf7['Core'][_0x209cb5(0x286)]['level'] >= 0x3c && _0x428bf7[_0x209cb5(0x6f7)][_0x209cb5(0x32e)][_0x209cb5(0xa72)] === _0xe12f59[_0x209cb5(0x4f1)] && this['UnlockAchievement'](_0x4943e2['ReachLV60InDairyPlant']),
                                 _0x428bf7['Core'][_0x209cb5(0x286)]['level'] >= 0xa && this[_0x209cb5(0x731)](_0x4943e2[_0x209cb5(0x9c7)]),
                                 _0x428bf7['Core']['Player'][_0x209cb5(0xb4d)] >= 0x5 && this[_0x209cb5(0x731)](_0x4943e2['ReachLV5']),
