@@ -2283,7 +2283,7 @@
                          "value":8
                         }],
                  "rotation":0,
-                 "type":"AREA",
+                 "type":"CHERRY",
                  "visible":true,
                  "width":0,
                  "x":1897.00543478261,
@@ -2548,7 +2548,7 @@
                          "value":-7
                         }],
                  "rotation":0,
-                 "type":"SPEAR",
+                 "type":"KNIFE",
                  "visible":true,
                  "width":0,
                  "x":1393.93666666667,
@@ -2576,7 +2576,7 @@
                          "value":-9
                         }],
                  "rotation":0,
-                 "type":"LONGSWORD",
+                 "type":"HOLYBOOK",
                  "visible":true,
                  "width":0,
                  "x":1416.16666666667,
@@ -2604,7 +2604,7 @@
                          "value":-6
                         }],
                  "rotation":0,
-                 "type":"STAR",
+                 "type":"DIAMOND",
                  "visible":true,
                  "width":0,
                  "x":1439.02666666667,
@@ -2632,7 +2632,7 @@
                          "value":-7
                         }],
                  "rotation":0,
-                 "type":"SKULL",
+                 "type":"WHIP",
                  "visible":true,
                  "width":0,
                  "x":1462.16666666667,
@@ -2660,7 +2660,7 @@
                          "value":8
                         }],
                  "rotation":0,
-                 "type":"G_SHIELD",
+                 "type":"ARMOR",
                  "visible":true,
                  "width":0,
                  "x":1483.29666666667,

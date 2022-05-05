@@ -326,6 +326,7 @@
                             _0x5c1a56[_0x4603ce(0x471)] = 'BGM_Mana',
                             _0x5c1a56[_0x4603ce(0x2f9)] = 'BGM_Tower',
                             _0x5c1a56[_0x4603ce(0x322)] = 'BGM_RedBlue',
+                            _0x5c1a56['BGM_Realm'] = 'BGM_Realm',
                             _0x5c1a56['BGM_Gatti'] = 'BGM_Gatti';
                     }
                     (_0x32650a || (_0x32650a = {}));
@@ -33993,6 +33994,7 @@
                                     this['load'][_0xf0ebb8(0x83c)](_0x5aaeff['BGM_Plant'], ['assets/sfx/bgm_elrond_plant.ogg']),
                                     this[_0xf0ebb8(0xa7a)]['audio'](_0x5aaeff['BGM_Mana'], ['assets/sfx/bgm_elrond_mana.ogg']),
                                     this[_0xf0ebb8(0xa7a)]['audio'](_0x5aaeff['BGM_RedBlue'], ['assets/sfx/bgm_elrond_redblue.ogg']),
+                                    this['load']['audio'](_0x5aaeff['BGM_Realm'], ['assets/sfx/bgm_realm.ogg']),
                                     this['load'][_0xf0ebb8(0x83c)](_0x5aaeff[_0xf0ebb8(0x2f9)], ['assets/sfx/bgm_elrond_tower.ogg']),
                                     this[_0xf0ebb8(0xa7a)][_0xf0ebb8(0x83c)](_0x5aaeff['BGM_Gatti'], ['assets/sfx/bgm_elrond_gatti.ogg']),
                                     this['load'][_0xf0ebb8(0x83c)](_0x276b51['ClickIn'], ['assets/sfx/sfx_sounds_pause7_in.ogg']),
